@@ -61,6 +61,16 @@ export default function PETrackerPage() {
             <span className="text-sm text-ips-dark font-medium">PE Platform Tracker</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Leonard Green owns majority stakes in BOTH Convergint ($2.7B) and Pye-Barker ($1.0B) — the #1 and #2 fire/security platforms</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Pye-Barker completed 57 acquisitions in one year with $680M in undrawn capacity</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Convergint acquired Digital Visions in Cincinnati (June 2025) — PE is already in IPS&apos;s home market</li>
+            </ul>
+          </div>
+
           {/* Leonard Green Dual Ownership Callout */}
           <div className="mb-8 rounded-xl border-2 border-[#C8202D] bg-red-50/50 p-5">
             <div className="flex items-start gap-3">

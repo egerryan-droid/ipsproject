@@ -77,6 +77,16 @@ export default function ECMonitorPage() {
             <span className="text-sm text-ips-dark font-medium">EC Consolidation Monitor</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> 58 of 79 EC acquisitions in 2024 were PE-driven (73%). FMI says consolidation is still in early stages.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> ArchKey (parent of IPS customer PEC Solutions) has a national fire/security team and is actively hiring NICET estimators</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> The displacement mechanism: PE buys EC, EC builds fire in-house, subcontractor (IPS) loses the work without a competitive bid</li>
+            </ul>
+          </div>
+
           {/* Convergence Loop Callout */}
           <div className="mb-8 rounded-xl border-2 border-[#C8202D] bg-red-50/50 p-5">
             <h3 className="font-bold text-[#C8202D] text-lg mb-2">The Convergence Loop (Confirmed)</h3>

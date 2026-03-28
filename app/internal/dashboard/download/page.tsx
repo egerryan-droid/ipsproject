@@ -72,6 +72,16 @@ export default function DownloadPage() {
             <span className="text-sm text-ips-dark font-medium">Download</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> 61-sheet financial model with 18 pressure test sheets built from 30K invoices, 43K vendor records, and 5 years of audited financials</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> 19 Claude-for-Excel prompts available to extend the model with additional scenarios</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Base model overstates 2030 cash by ~$8.8M because M&amp;A acquisition costs are not in the Cash Flow sheet</li>
+            </ul>
+          </div>
+
           {/* Download Card */}
           <section className="mb-12">
             <div className="rounded-xl border-2 border-[#1B3A6B]/20 bg-[#1B3A6B]/5 p-8 text-center">

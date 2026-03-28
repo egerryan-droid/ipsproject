@@ -54,6 +54,16 @@ export default function MarketActivityPage() {
             <span className="text-sm text-ips-dark font-medium">Market Activity</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Fire/security integrators with &lt;10% RMR trade at 4-5x EBITDA. With 20%+ RMR: 7-10x. IPS is at 5.8%.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Largest EC transaction ever: Power Solutions for $1.95B (Nov 2025). Data centers are driving 45-70% of EC construction cost.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Three new large-cap PE firms (Apax, Blackstone, KKR) entered fire/life safety in 2024</li>
+            </ul>
+          </div>
+
           {/* Key Stat Cards */}
           <section className="mb-12">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

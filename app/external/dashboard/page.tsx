@@ -71,6 +71,16 @@ export default function ResearchDashboardPage() {
             <span className="text-sm text-ips-dark font-medium">Research &amp; Intelligence</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> $9.6B+ in PE capital deployed across fire, security, and electrical contractor consolidation</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Leonard Green controls both #1 and #2 platforms — $3.7B combined. One board decision from operational coordination.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> 3 of IPS&apos;s 8 EC customers are already PE/corporate-owned. The displacement is not hypothetical.</li>
+            </ul>
+          </div>
+
           <h2 className="text-xl font-bold text-ips-dark mb-6">Intelligence Categories</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {DASHBOARD_SECTIONS.map((section) => (

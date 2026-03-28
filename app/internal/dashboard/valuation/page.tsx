@@ -53,6 +53,16 @@ export default function ValuationPage() {
             <span className="text-sm text-ips-dark font-medium">Valuation</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> At 5.8% RMR, IPS trades at ~1.0x revenue. At 10% RMR: ~1.5x. At 20%: ~2.15x. The model never crosses 10% organically.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Maximum affordable buyout: $62M under base case, $27M under Amazon loss. Gap between negotiated and full price is $9M — survivability is binary.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> A $1.9M managed security acquisition is immediately executable from existing LOC and breaks even on EV basis by Year 2.</li>
+            </ul>
+          </div>
+
           {/* RMR Valuation Tiers */}
           <section className="mb-12">
             <h2 className="text-xl font-bold text-ips-dark mb-2">RMR Valuation Tiers</h2>

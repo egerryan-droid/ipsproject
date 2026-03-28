@@ -69,6 +69,16 @@ export default function DashboardPage() {
             <span className="text-sm text-ips-dark font-medium">Dashboard</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> IPS grew revenue 26% in 2025 and ended the year with negative cash. Growth Quality Score: 44/100.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> 45% of IPS revenue is rated Vulnerable on the Convergence Scorecard. Only 20% is Defensible.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> The buyout costs the same in 2026 or 2028. But FCF to fund it is 3x higher in 2026. Order: buyout first, then pivot.</li>
+            </ul>
+          </div>
+
           <h2 className="text-xl font-bold text-ips-dark mb-6">Model Sections</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {DASHBOARD_SECTIONS.map((section) => (

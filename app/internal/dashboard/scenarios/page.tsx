@@ -98,6 +98,16 @@ export default function ScenariosPage() {
             <span className="text-sm text-ips-dark font-medium">Scenarios</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Perfect Storm (all 4 risks): EBITDA collapses to $1.1M in 2028 (from $15.5M base). Cash reaches -$27M by 2030.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Amazon loss alone drops 2028 EBITDA by 39%. The revenue is commodity warehouse work — not data center, not NICET IV.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Losing EC-channel revenue may actually IMPROVE margins (18% EC margin vs 30%+ direct). The EBITDA hit is smaller than revenue suggests.</li>
+            </ul>
+          </div>
+
           {/* Scenario Cards */}
           <div className="space-y-8">
             {SCENARIOS.map((scenario) => (

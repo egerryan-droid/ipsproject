@@ -75,6 +75,16 @@ export default function OperationsPage() {
             <span className="text-sm text-ips-dark font-medium">Operations</span>
           </div>
 
+          {/* Key Takeaways */}
+          <div className="mb-10 rounded-xl border-l-4 border-[#1B3A6B] bg-[#e8edf7] p-6">
+            <h3 className="text-sm font-bold text-[#1B3A6B] uppercase tracking-widest mb-3">Key Takeaways</h3>
+            <ul className="space-y-2 text-sm text-[#1a1a1f]">
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> 2 of 11 Glass House metrics positive. 9 deteriorating. Revenue growth masks operational decline.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> Columbus COGS 52% vs Cincinnati 75% vs Nashville 130%. 78pp variance between best and worst branch.</li>
+              <li className="flex items-start gap-2"><span className="text-[#C8202D] font-bold mt-0.5">→</span> EC/GC is 43% of revenue but only 29% of gross profit at 18% margin. Service/Recurring is 18% of revenue but 34% of GP at 50% margin.</li>
+            </ul>
+          </div>
+
           {/* Glass House 11 Metrics */}
           <section className="mb-12">
             <h2 className="text-xl font-bold text-ips-dark mb-2">Glass House &mdash; 11 Metric Summary</h2>
