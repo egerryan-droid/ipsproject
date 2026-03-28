@@ -1,9 +1,9 @@
 'use client'
 
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { useState } from 'react'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, LogOut } from 'lucide-react'
 import { IPSLogo, XavierBadge } from '../IPSLogo'
 
 const NAV_ITEMS = [
@@ -16,7 +16,15 @@ const NAV_ITEMS = [
 
 export default function SiteNav() {
   const pathname = usePathname()
+  const router = useRouter()
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [loggingOut, setLoggingOut] = useState(false)
+
+  async function handleLogout() {
+    setLoggingOut(true)
+    await fetch('/api/logout', { method: 'POST' })
+    router.push('/login')
+  }
 
   function isActive(href: string) {
     if (href === '/home') return pathname === '/home'
@@ -29,7 +37,7 @@ export default function SiteNav() {
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           {/* Left: IPS logo — prominent */}
           <Link href="/home" className="flex items-center gap-3">
-            <IPSLogo className="h-10 w-auto" />
+            <IPSLogo className="h-10 w-auto" height={40} priority />
           </Link>
 
           {/* Center/Right: Nav links (desktop) */}
@@ -49,12 +57,21 @@ export default function SiteNav() {
             ))}
           </div>
 
-          {/* Far right: cohort label + hamburger */}
-          <div className="flex items-center gap-3">
+          {/* Far right: cohort label + logout + hamburger */}
+          <div className="flex items-center gap-2">
             <span className="hidden lg:flex items-center gap-2 text-[10px] text-ips-gray border border-gray-200 rounded-full px-3 py-1">
               <XavierBadge className="h-4 w-auto opacity-60" />
               EMBA&nbsp;2026
             </span>
+            <button
+              onClick={handleLogout}
+              disabled={loggingOut}
+              className="hidden md:flex items-center gap-1.5 text-[10px] text-ips-gray hover:text-ips-red border border-gray-200 hover:border-ips-red/30 rounded-full px-3 py-1 transition-colors"
+              title="Sign out"
+            >
+              <LogOut size={12} />
+              {loggingOut ? 'Signing out...' : 'Sign Out'}
+            </button>
             <button
               className="md:hidden p-2 rounded-lg text-ips-gray hover:text-ips-dark hover:bg-ips-light transition-colors"
               onClick={() => setMobileOpen((v) => !v)}
@@ -82,8 +99,16 @@ export default function SiteNav() {
                 {item.label}
               </Link>
             ))}
-            <div className="pt-2 pb-1 px-4 text-xs text-ips-gray">
-              Xavier EMBA&nbsp;·&nbsp;2026
+            <div className="pt-2 pb-1 px-4 text-xs text-ips-gray flex items-center justify-between">
+              <span>Xavier EMBA&nbsp;·&nbsp;2026</span>
+              <button
+                onClick={handleLogout}
+                disabled={loggingOut}
+                className="flex items-center gap-1 text-ips-gray hover:text-ips-red transition-colors"
+              >
+                <LogOut size={12} />
+                Sign Out
+              </button>
             </div>
           </div>
         )}

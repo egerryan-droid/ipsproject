@@ -21,7 +21,7 @@ export default function HomePage() {
         {/* Hero */}
         <section className="bg-[#1B3A6B] text-white px-6 py-20">
           <div className="max-w-5xl mx-auto">
-            <IPSLogo className="h-14 w-auto mb-8" white />
+            <IPSLogo className="h-14 w-auto mb-8" height={56} priority />
             <p className="text-ips-red uppercase tracking-widest text-sm font-semibold mb-4">
               Strategic Intelligence Platform
             </p>

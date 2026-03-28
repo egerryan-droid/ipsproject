@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { SLIDES, type Slide } from '@/lib/slides-data'
 import { SlideRenderer } from './SlideRenderer'
-import { IPSLogo } from '../IPSLogo'
+// Inline SVG for slide viewer — no external dependencies
 
 function SlideSection({ slide, index, total }: { slide: Slide; index: number; total: number }) {
   const ref = useRef<HTMLElement>(null)
@@ -24,6 +24,7 @@ function SlideSection({ slide, index, total }: { slide: Slide; index: number; to
     1: '#1B3A6B', 2: '#1B3A6B', 3: '#1B3A6B',
     4: '#1B3A6B', 5: '#1B3A6B', 6: '#1B3A6B',
     7: '#1B3A6B', 8: '#C8202D', 9: '#C8202D', 10: '#1B3A6B',
+    11: '#1B3A6B',
   }
 
   return (
@@ -94,7 +95,12 @@ export function SlideViewer({ slides = SLIDES }: { slides?: Slide[] }) {
           <Link href="/home" className="text-white/30 hover:text-white/60 text-xs transition-colors">
             ← Exit
           </Link>
-          <IPSLogo className="h-6 w-auto opacity-40" white />
+          <svg viewBox="0 0 240 90" className="h-6 w-auto opacity-40" xmlns="http://www.w3.org/2000/svg" fill="none">
+            <path d="M 20 28 Q 120 -2 220 28" stroke="#C8202D" strokeWidth="4.5" strokeLinecap="round" fill="none"/>
+            <path d="M 20 50 Q 120 80 220 50" stroke="#C8202D" strokeWidth="4.5" strokeLinecap="round" fill="none"/>
+            <text x="120" y="52" fontFamily="Arial, Helvetica, sans-serif" fontSize="34" fontWeight="900" fontStyle="italic" fill="#ffffff" textAnchor="middle" letterSpacing="2">IPS</text>
+            <text x="120" y="76" fontFamily="Arial, Helvetica, sans-serif" fontSize="8.5" fontWeight="600" fill="#ffffff" textAnchor="middle" letterSpacing="1.5">INTEGRATED PROTECTION SERVICES</text>
+          </svg>
         </div>
         <div className="pointer-events-auto">
           <span className="text-white/20 text-xs">Scroll to navigate</span>

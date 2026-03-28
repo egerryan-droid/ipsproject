@@ -67,6 +67,25 @@ export function Slide45() {
           </tbody>
         </table>
 
+        {/* Tier summary badges */}
+        <div className="flex gap-[2%] flex-shrink-0" style={{ marginTop: '1.5%', marginBottom: '1.5%' }}>
+          <div className="flex-1 rounded-lg flex items-center justify-center gap-[4%]" style={{ background: '#f0fdf4', border: '2px solid #059669', padding: '1.2% 2%' }}>
+            <span className="font-bold uppercase tracking-wider" style={{ fontSize: '0.55vw', color: '#059669' }}>Defensible (4.0+)</span>
+            <span className="font-extrabold" style={{ fontSize: '0.9vw', color: '#059669' }}>$13.5M</span>
+            <span className="font-semibold" style={{ fontSize: '0.6vw', color: '#059669' }}>(20%)</span>
+          </div>
+          <div className="flex-1 rounded-lg flex items-center justify-center gap-[4%]" style={{ background: '#fffbeb', border: '2px solid #d97706', padding: '1.2% 2%' }}>
+            <span className="font-bold uppercase tracking-wider" style={{ fontSize: '0.55vw', color: '#d97706' }}>Moderate (3.0–3.9)</span>
+            <span className="font-extrabold" style={{ fontSize: '0.9vw', color: '#d97706' }}>$23.4M</span>
+            <span className="font-semibold" style={{ fontSize: '0.6vw', color: '#d97706' }}>(35%)</span>
+          </div>
+          <div className="flex-1 rounded-lg flex items-center justify-center gap-[4%]" style={{ background: '#fef2f2', border: '2px solid #C8202D', padding: '1.2% 2%' }}>
+            <span className="font-bold uppercase tracking-wider" style={{ fontSize: '0.55vw', color: '#C8202D' }}>Vulnerable (&lt;3.0)</span>
+            <span className="font-extrabold" style={{ fontSize: '0.9vw', color: '#C8202D' }}>$29.9M</span>
+            <span className="font-semibold" style={{ fontSize: '0.6vw', color: '#C8202D' }}>(45%)</span>
+          </div>
+        </div>
+
         {/* Bottom insight */}
         <div className="flex-shrink-0 mt-auto" style={{ background: '#fff0f0', padding: '1.8% 3%', borderTop: '2px solid #fca5a5' }}>
           <div className="flex items-start gap-[1%]">

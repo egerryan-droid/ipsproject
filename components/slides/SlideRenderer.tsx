@@ -52,6 +52,9 @@ const slideComponents: Record<string, React.ComponentType> = {
   Slide48: dynamic(() => import('./slides/Slide48').then(m => ({ default: m.Slide48 })), { ssr: false }),
   Slide49: dynamic(() => import('./slides/Slide49').then(m => ({ default: m.Slide49 })), { ssr: false }),
   Slide50: dynamic(() => import('./slides/Slide50').then(m => ({ default: m.Slide50 })), { ssr: false }),
+  Slide51: dynamic(() => import('./slides/Slide51').then(m => ({ default: m.Slide51 })), { ssr: false }),
+  Slide52: dynamic(() => import('./slides/Slide52').then(m => ({ default: m.Slide52 })), { ssr: false }),
+  Slide53: dynamic(() => import('./slides/Slide53').then(m => ({ default: m.Slide53 })), { ssr: false }),
 }
 
 export function SlideRenderer({ component, id }: { component: string; id: number }) {

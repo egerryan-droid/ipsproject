@@ -1,14 +1,16 @@
-import { IPS_LOGO_BASE64 } from '@/lib/logos'
-
 export function Slide01() {
   return (
     <div className="w-full h-full bg-white relative overflow-hidden flex flex-col items-center justify-center">
       {/* Thin accent line at top */}
       <div className="absolute top-0 left-0 right-0 h-[3px] bg-[#1B3A6B]" />
 
-      {/* Logo */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={IPS_LOGO_BASE64} alt="IPS" className="h-[8vw] w-auto mb-[2vw]" />
+      {/* Logo — inline SVG */}
+      <svg viewBox="0 0 240 90" className="h-[8vw] w-auto mb-[2vw]" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <path d="M 20 28 Q 120 -2 220 28" stroke="#C8202D" strokeWidth="4.5" strokeLinecap="round" fill="none"/>
+        <path d="M 20 50 Q 120 80 220 50" stroke="#C8202D" strokeWidth="4.5" strokeLinecap="round" fill="none"/>
+        <text x="120" y="52" fontFamily="Arial, Helvetica, sans-serif" fontSize="34" fontWeight="900" fontStyle="italic" fill="#1B3A6B" textAnchor="middle" letterSpacing="2">IPS</text>
+        <text x="120" y="76" fontFamily="Arial, Helvetica, sans-serif" fontSize="8.5" fontWeight="600" fill="#1B3A6B" textAnchor="middle" letterSpacing="1.5">INTEGRATED PROTECTION SERVICES</text>
+      </svg>
 
       {/* Eyebrow */}
       <p

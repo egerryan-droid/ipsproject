@@ -32,6 +32,12 @@ export default function ExternalPage() {
               >
                 Browse Deliverables
               </Link>
+              <Link
+                href="/external/dashboard"
+                className="bg-white/10 text-white text-sm font-semibold rounded-lg px-5 py-2.5 hover:bg-white/20 transition-colors"
+              >
+                Research & Intelligence
+              </Link>
             </div>
           </div>
         </section>

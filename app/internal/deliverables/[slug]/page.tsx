@@ -40,7 +40,7 @@ export default async function InternalDeliverablePage({ params }: Props) {
                 href={`/internal/deliverables/${d.slug}`}
                 className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-all ${
                   d.slug === slug
-                    ? 'bg-red-600 text-white font-semibold'
+                    ? 'bg-ips-red text-white font-semibold'
                     : 'text-[#80848f] hover:text-[#1a1a1f] hover:bg-[#f5f5f8]'
                 }`}
               >
@@ -63,9 +63,9 @@ export default async function InternalDeliverablePage({ params }: Props) {
           <div className="max-w-3xl mx-auto px-8 py-10">
             {/* Breadcrumb */}
             <div className="flex items-center gap-2 text-sm text-[#80848f] mb-6">
-              <Link href="/internal" className="hover:text-red-600 transition-colors">Internal Analysis</Link>
+              <Link href="/internal" className="hover:text-ips-red transition-colors">Internal Analysis</Link>
               <span>/</span>
-              <Link href="/internal/deliverables" className="hover:text-red-600 transition-colors">Deliverables</Link>
+              <Link href="/internal/deliverables" className="hover:text-ips-red transition-colors">Deliverables</Link>
               <span>/</span>
               <span className="text-[#1a1a1f] font-medium">{meta.label}</span>
             </div>
@@ -88,7 +88,7 @@ export default async function InternalDeliverablePage({ params }: Props) {
               {prev ? (
                 <Link
                   href={`/internal/deliverables/${prev.slug}`}
-                  className="flex items-center gap-2 text-sm text-[#80848f] hover:text-red-600 transition-colors group"
+                  className="flex items-center gap-2 text-sm text-[#80848f] hover:text-ips-red transition-colors group"
                 >
                   <span className="group-hover:-translate-x-1 transition-transform">←</span>
                   <div>
@@ -100,7 +100,7 @@ export default async function InternalDeliverablePage({ params }: Props) {
               {next ? (
                 <Link
                   href={`/internal/deliverables/${next.slug}`}
-                  className="flex items-center gap-2 text-sm text-[#80848f] hover:text-red-600 transition-colors group text-right"
+                  className="flex items-center gap-2 text-sm text-[#80848f] hover:text-ips-red transition-colors group text-right"
                 >
                   <div>
                     <div className="text-xs text-[#80848f] mb-0.5">Next</div>

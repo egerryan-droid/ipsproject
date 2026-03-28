@@ -87,6 +87,14 @@ Defense in the integration business is the monthly relationship. IPS does not se
 | EC concentration | 43% of revenue | Subject to PE acquisition |
 | Combined at-risk revenue | 66.5% | Two-thirds through channels PE targets |
 
+### The Amazon Warehouse Correction
+
+A critical distinction: IPS does Amazon warehouses, not data centers. This changes the analysis entirely. Data center fire alarm is specialized, engineering-heavy work requiring VESDA, clean agent suppression, and BMS integration --- work where NICET IV provides real competitive protection. Warehouse fire alarm is commodity work: standard addressable panels, standard NACs, standard ceiling-height detection. Any contractor with NICET II or III can handle it.
+
+Amazon's warehouse network is one of the most standardized construction programs in the world. The fire alarm spec is templated. This is precisely the kind of program where a national MSA makes overwhelming sense. The $23 billion in Ohio data center investment is irrelevant to IPS's pipeline because IPS does not perform data center work.
+
+The Amazon concentration risk is worse than originally assessed. The revenue is less defensible (commodity work), less sustainable (maturing construction cycle), and more vulnerable to national MSA consolidation (standardized specs).
+
 ### Negative Cash Despite 26% Growth
 
 | Item | Value |
@@ -94,7 +102,7 @@ Defense in the integration business is the monthly relationship. IPS does not se
 | Revenue growth | +$11M |
 | AR growth | +$6.3M (absorbed 57% of new revenue) |
 | DSO | 122 days ($18M in receivables) |
-| Distributions | $3.7M (from cash-negative business) |
+| Distributions | $3.3M (from cash-negative business) |
 | Year-end cash | -$71K |
 
 The project-based model consumes working capital faster than it generates cash. Growth of the wrong kind is capital-destructive.

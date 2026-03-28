@@ -18,6 +18,13 @@ export function Slide33() {
   return (
     <SlideLayout actNumber={6} actLabel="ACT 6: WHAT THE NUMBERS SAY" title="The Glass House" speaker="Ryan Eger">
       <div className="h-full flex flex-col overflow-hidden">
+        {/* Growth Quality Score hero stat */}
+        <div className="flex items-center gap-[2%] mb-[1.5%]">
+          <p className="font-extrabold" style={{ fontSize: '1.6vw', color: '#1B3A6B', lineHeight: 1 }}>Growth Quality Score: 44 / 100</p>
+          <div className="rounded-full" style={{ background: '#C8202D', padding: '0.3% 1.5%' }}>
+            <p className="text-white font-bold uppercase tracking-wider" style={{ fontSize: '0.65vw' }}>C Rating</p>
+          </div>
+        </div>
         <table className="w-full border-collapse" style={{ tableLayout: 'fixed' }}>
           <colgroup>
             <col style={{ width: '18%' }} />
@@ -78,7 +85,7 @@ export function Slide33() {
         <div className="bg-[#1a1a1f] rounded-xl px-[3%] py-[2%] flex items-center gap-[3%]">
           <div className="w-[0.5%] self-stretch bg-[#C8202D] rounded-full flex-shrink-0" />
           <p className="text-white text-[0.85vw] leading-relaxed">
-            <span className="font-bold text-[#fca5a5]">The Glass House:</span> The revenue growth is real. It is masking deterioration in almost every operational health metric. Two green arrows. Nine red.
+            <span className="font-bold text-[#fca5a5]">The Glass House:</span> The revenue growth is real. It is masking deterioration in almost every operational health metric. Two green arrows. Nine red. Growth Quality Score: 44/100 — a C rating. 10 of 14 operational metrics deteriorating during the highest-growth year.
           </p>
         </div>
       </div>

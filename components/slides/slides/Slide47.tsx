@@ -52,6 +52,15 @@ export function Slide47() {
           ))}
         </div>
 
+        {/* Buyout affordability callout */}
+        <div className="rounded-xl flex items-start gap-[2%]" style={{ background: '#fef2f2', border: '2px solid #C8202D', padding: '2% 3%', marginBottom: '1.5%' }}>
+          <div>
+            <p style={{ fontSize: '0.7vw', color: '#991b1b', lineHeight: 1.5 }}>
+              <span className="font-bold">Maximum affordable buyout: $62M under base case, $27M under Amazon loss.</span> Negotiated vs Full Price gap is $9M — but the difference in survivability is binary. At full price, IPS cannot service debt. At negotiated price, it barely can.
+            </p>
+          </div>
+        </div>
+
         {/* Bottom comparison table */}
         <div className="rounded-xl overflow-hidden mt-auto" style={{ border: '2px solid #1a1a1f' }}>
           <div className="flex" style={{ background: '#1a1a1f', padding: '1.5% 3%' }}>

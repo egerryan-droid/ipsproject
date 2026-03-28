@@ -71,7 +71,7 @@ The most consequential finding is the gap between IPS and PE-backed competitors 
 
 | Category | 3-Year Revenue | % of Total | Growth 2023-2025 | Avg Invoice |
 |----------|---------------|-----------|------------------|------------|
-| Fire | $61.5M | 37.5% | +205% ($9.6M to $29.2M) | $9.6K to $27K |
+| Fire | $61.5M | 37.5% | +204% ($9.6M to $29.2M) | $9.6K to $27K |
 | Sec-Access | $53.5M | 32.6% | +53% ($12.9M to $19.8M) | Stable |
 | Service | $21.4M | 13.1% | +49% ($5.5M to $8.2M) | $1,264-$1,410 |
 | Sec-CCTV | $14.1M | 8.6% | +13% ($4.3M to $4.8M) | Stalling |
@@ -286,16 +286,16 @@ At 50% margin: approximately $1.3M/year in GP left on the table.
 
 | Revenue Stream | 2025 Rev | % Total | Defensibility | Trend | Threat |
 |---------------|----------|---------|--------------|-------|--------|
-| Fire Install (EC) | $24.9M | 37% | 1/5 | Eroding | ECs PE-owned; ArchKey building fire |
+| Fire Install (EC) | ~$19.8M | 37% | 1/5 | Eroding | ECs PE-owned; ArchKey building fire |
 | Fire Install (direct) | $4.3M | 6% | 4/5 | Stable | PE competing but NICET holds |
 | Fire Service/Inspect | $3.0M | 4% | 5/5 | Defensible | Code-mandated, NICET required |
 | Security Access | $19.8M | 29% | 3/5 | Pressured | Verkada direct; IT DIY |
 | Security CCTV | $4.8M | 7% | 2/5 | Eroding | Stalling; commodity |
 | Service Agreements | $3.7M | 5% | 4/5 | Growing | Sticky; 73% CAGR |
 | Monitoring | $0.2M | 0.3% | 1/5 | Stalling | Third-party; no moat |
-| National Accounts | $15.9M | 24% | 2/5 | Concentrated | Amazon 23.5%; PE national |
+| National Accounts | $12.6M | 24% | 2/5 | Concentrated | Amazon 23.5%; PE national |
 
-**Critical finding:** $24.9M (37% of total) scores 1/5 defensibility. Only $3.0M (4.4%) scores 5/5. Fire the capability is defensible. Fire the revenue stream through ECs is the most vulnerable revenue in the business.
+**Critical finding:** ~$19.8M (37% of total) scores 1/5 defensibility. Only $3.0M (4.4%) scores 5/5. Fire the capability is defensible. Fire the revenue stream through ECs is the most vulnerable revenue in the business.
 
 ---
 

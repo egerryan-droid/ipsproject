@@ -9,9 +9,23 @@
 
 IPS grew revenue 26% in 2025 and ended the year with negative cash. A company that added $11M in revenue finished with -$71K in the bank and $1.7M drawn on its line of credit. The revenue growth is real. It is masking deterioration in almost every operational health metric.
 
-This analysis reframes the internal assessment by looking past the revenue headline to examine what is happening inside the business. Eleven metrics tell the story: while revenue and gross margin improved, EBITDA margin declined, cash went negative, DSO spiked 22 days, bad debt exploded 94x, SGA consumed 42 cents of every new revenue dollar, customer concentration accelerated to 46.4% in the top three accounts, backlog failed to grow despite 26% revenue growth, customer retention held flat at 81.5% (losing 1 in 5 customers annually), and RMR as a percentage of revenue barely moved from its industry-trailing 5.8%.
+This analysis reframes the internal assessment by looking past the revenue headline to examine what is happening inside the business. Eleven metrics tell the story: while revenue and gross margin improved, EBITDA margin declined, cash went negative, DSO spiked 22 days, bad debt exploded 94x, SGA consumed 42 cents of every new revenue dollar, customer concentration accelerated to 46.4% in the top three accounts, backlog failed to grow despite 26% revenue growth, customer retention held flat at 81.5% (losing 1 in 5 customers annually), and RMR as a percentage of revenue was declining from 6.9% to its industry-trailing 5.8%.
 
 The glass house thesis is not that IPS is failing --- it is that IPS's technical excellence and revenue growth have outpaced the operational infrastructure required to sustain that growth under competitive stress. Revenue scales with project wins. Collections, cost control, customer quality, cash management, recurring revenue development, and operational process maturity do not scale at the same rate because they require systematic investment that project-focused leadership defers. The competitive stress from PE-backed platforms is arriving faster than the infrastructure is being built. The house is glass. The question is whether IPS reinforces the foundation before the stones start flying.
+
+---
+
+## Growth Quality Score
+
+The financial model includes an Operational Health Scorecard evaluating 14 operational metrics alongside revenue growth. The 2025 results:
+
+- Revenue growth scored **100 out of 100** (26% YoY)
+- Composite Growth Quality Score dropped to **44 out of 100** --- a C rating
+- **10 of 14** operational metrics heading in the wrong direction during the highest-growth year
+
+Specific deteriorations: SGA growth outpaced revenue growth by 25.8 percentage points (operating leverage score: zero). Cash went negative. Distributions exceeded operating cash flow by 1.75x. Bad debt increased from $9K to $849K. DSO spiked from 100 to 122 days. Backlog stayed flat despite 26% revenue growth.
+
+Revenue grew 26%. The Operational Health Score dropped to 44. This IS the glass house.
 
 ---
 
@@ -85,10 +99,10 @@ The company got better at making money on projects and worse at controlling what
 | DSO spike | 100 to 122 days | Working capital trap |
 | Operating cash flow | $1.9M | After working capital absorption |
 | Less: Capex | -$515K | Minimal (asset-light) |
-| Less: Distributions | -$3.7M | Highest in analysis period |
+| Less: Distributions | -$3.3M | Highest in analysis period |
 | **Net result** | **Cash destruction** | -$71K year-end |
 
-IPS added $11M in revenue but tied up $6.3M in uncollected receivables. The company earned $5.2M in net income but ended with negative cash because distributions ($3.7M) and working capital growth consumed all earnings plus existing cash.
+IPS added $11M in revenue but tied up $6.3M in uncollected receivables. The company earned $5.2M in net income but ended with negative cash because distributions ($3.3M) and working capital growth consumed all earnings plus existing cash.
 
 ---
 
@@ -250,10 +264,10 @@ IPS needs 2-5 years to build what PE platforms already have or can acquire in 90
 | **COGS reclassification** | Margin expansion story built on 2025 baseline that may be distorted. Materials+Sub combined increasing (28% to 31.5%). "Improvement" is all labor leverage --- which depends on revenue outpacing headcount. But SGA shows headcount outpacing revenue. |
 | **DSO at 122 days** | $6.3M in new AR on $11M growth. Growth consuming working capital faster than generating cash. |
 | **SGA +52%** | 42 cents of every new dollar to SGA. Negative operating leverage. Back office growing faster than business. |
-| **RMR at 5.8%** | Despite adding customers and 26% growth, RMR barely moved. Adding project revenue (one-time) not recurring (value-building). Running faster but not building equity. |
+| **RMR declining from 6.9% to 5.8%** | Despite adding customers and 26% growth, RMR barely moved. Adding project revenue (one-time) not recurring (value-building). Running faster but not building equity. |
 | **$37M acquisition gap** | Model projects $49M cash by 2030. Reality: negative cash today. Model assumes improvements 2025 contradicted. |
 | **EC displacement** | 43% of revenue through ECs that PE is acquiring. Fastest-growing channel is lowest margin, worst DSO, zero RMR. Growth accelerating in wrong direction. |
-| **Forced buyout** | Partner buyout requires strong FCF. 2025 FCF was $1.4M after $3.7M distributions from cash-negative company. |
+| **Forced buyout** | Partner buyout requires strong FCF. 2025 FCF was $1.4M after $3.3M distributions from cash-negative company. |
 | **Branch variance** | Columbus 52% COGS, Cincinnati 75%. Growth may concentrate in wrong branch/channel mix. |
 | **Backlog flat** | Pipeline not refilling. Either 2025 pulled forward or sales not keeping pace. |
 | **Bad debt 94x** | Material default or systemic collections breakdown. Leading indicator at 122-day DSO. |
@@ -291,12 +305,12 @@ Six of eight external forces hit IPS at HIGH or CRITICAL gap levels. IPS has the
 
 | Year | Net Income | Distributions | Cash Impact |
 |------|-----------|--------------|-------------|
-| 2025 | $5.2M | $3.7M | $3.7M removed from business |
+| 2025 | $5.2M | $3.3M | $3.3M removed from business |
 | At year-end | --- | --- | Cash position: -$71K |
 
-IPS distributed $3.7M to owners from a business that ended the year with negative cash. This is not illegal or unusual for a privately-held company. But it reveals a capital allocation choice: leadership prioritized owner distributions over operational investment, working capital, or cash reserves.
+IPS distributed $3.3M to owners from a business that ended the year with negative cash. This is not illegal or unusual for a privately-held company. But it reveals a capital allocation choice: leadership prioritized owner distributions over operational investment, working capital, or cash reserves.
 
-At $3.7M per year in distributions from a cash-negative business, IPS is simultaneously:
+At $3.3M per year in distributions from a cash-negative business, IPS is simultaneously:
 - Underfunding the RMR infrastructure buildout
 - Underfunding the ERP modernization
 - Underfunding training and development
@@ -318,7 +332,7 @@ Every scenario modeled --- Amazon loss, EC capture, Edwards dilution, forced buy
 | SGA | 25.1% and growing (cost discipline gap) |
 | Backlog | Flat (pipeline uncertainty) |
 | Bad debt | $849K (collection/credit risk) |
-| Distributions | $3.7M from cash-negative business (capital allocation) |
+| Distributions | $3.3M from cash-negative business (capital allocation) |
 
 The model projects all of these improving. 2025 showed all of them worsening. The model needs to explain what changes operationally to reverse these trends, not just assume they mean-revert.
 

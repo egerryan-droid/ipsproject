@@ -84,6 +84,14 @@ export function Slide46() {
           </div>
         </div>
 
+        {/* Perfect Storm callout */}
+        <div className="rounded-xl" style={{ background: '#fef2f2', border: '2px solid #C8202D', padding: '2% 3%', marginBottom: '2%' }}>
+          <p className="font-bold uppercase tracking-wider" style={{ fontSize: '0.6vw', color: '#C8202D', marginBottom: '1%' }}>Perfect Storm Scenario</p>
+          <p style={{ fontSize: '0.7vw', color: '#991b1b', lineHeight: 1.5 }}>
+            EBITDA collapses to <span className="font-bold">$1.1M in 2028</span> (from base $15.5M). Cumulative cash reaches <span className="font-bold">-$27M by 2030</span>. Fixed costs do not flex. The Valley of Death is not a metaphor &mdash; it is a cash flow reality.
+          </p>
+        </div>
+
         {/* Bottom explanation */}
         <div className="rounded-xl" style={{ background: '#1a1a1f', padding: '2% 3%' }}>
           <p style={{ fontSize: '0.75vw', color: '#e5e7eb', lineHeight: 1.5 }}>

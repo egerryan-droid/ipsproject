@@ -1,8 +1,17 @@
 import Image from 'next/image'
 
-// IPS Logo — uses Next.js Image from public/ips-logo.png (293x68 PNG)
-// white prop adds glow for dark backgrounds
-export function IPSLogo({ className = '', white = false, height = 40 }: { className?: string; white?: boolean; height?: number }) {
+// IPS Logo — standard (for light backgrounds) and white-filtered (for dark backgrounds)
+export function IPSLogo({
+  className = '',
+  white = false,
+  height = 40,
+  priority = false,
+}: {
+  className?: string
+  white?: boolean
+  height?: number
+  priority?: boolean
+}) {
   const width = Math.round(height * (293 / 68))
   return (
     <Image
@@ -10,23 +19,30 @@ export function IPSLogo({ className = '', white = false, height = 40 }: { classN
       alt="IPS"
       width={width}
       height={height}
-      className={className}
-      style={white ? { filter: 'drop-shadow(0 0 8px rgba(255,255,255,0.5))' } : undefined}
-      priority
+      className={`${className} ${white ? 'brightness-0 invert' : ''}`}
+      priority={priority}
     />
   )
 }
 
-// Xavier Logo — uses Next.js Image from public/xavier-logo.jpg (225x225 JPEG)
-export function XavierBadge({ className = '', height = 24 }: { className?: string; height?: number }) {
+// Xavier Logo — round-clipped to avoid white square on dark backgrounds
+export function XavierBadge({
+  className = '',
+  height = 24,
+  priority = false,
+}: {
+  className?: string
+  height?: number
+  priority?: boolean
+}) {
   return (
     <Image
       src="/xavier-logo.jpg"
       alt="Xavier EMBA"
       width={height}
       height={height}
-      className={className}
-      priority
+      className={`${className} rounded-full`}
+      priority={priority}
     />
   )
 }

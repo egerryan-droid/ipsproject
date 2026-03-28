@@ -58,26 +58,49 @@ export function Slide39() {
           </div>
         </div>
 
-        {/* Quote + Stat row */}
+        {/* CLV Gap + Attach Rates */}
         <div className="flex gap-[2%]">
-          {/* Quote box */}
-          <div className="flex-1 bg-[#f5f5f8] border-l-4 border-[#1B3A6B] rounded-r-xl px-[3%] py-[2%]">
-            <p className="text-[#1a1a1f] italic leading-relaxed" style={{ fontSize: '0.85vw' }}>
-              &ldquo;IPS installs, trains, and walks away. Customer self-manages.&rdquo;
-            </p>
-            <p className="text-[#1B3A6B] font-bold mt-[1%]" style={{ fontSize: '0.65vw' }}>
-              &mdash; Pete Keller, IPS Leadership
-            </p>
+          {/* CLV numbers */}
+          <div className="flex-1 bg-[#1a1a1f] rounded-xl px-[3%] py-[2%]">
+            <p className="font-bold uppercase tracking-wider" style={{ fontSize: '0.55vw', color: '#80848f', marginBottom: '2%' }}>Customer Lifetime Value Gap</p>
+            <div className="flex items-end gap-[4%]">
+              <div>
+                <p className="text-[#fca5a5] font-extrabold" style={{ fontSize: '1.6vw', lineHeight: 1 }}>$60,428</p>
+                <p className="text-[#80848f]" style={{ fontSize: '0.55vw', marginTop: '2%' }}>Current CLV</p>
+              </div>
+              <span style={{ fontSize: '1.2vw', color: '#80848f' }}>{'\u2192'}</span>
+              <div>
+                <p className="text-[#059669] font-extrabold" style={{ fontSize: '1.6vw', lineHeight: 1 }}>$91,062</p>
+                <p className="text-[#80848f]" style={{ fontSize: '0.55vw', marginTop: '2%' }}>Ideal CLV</p>
+              </div>
+              <span style={{ fontSize: '1.2vw', color: '#80848f' }}>=</span>
+              <div>
+                <p className="text-[#fbbf24] font-extrabold" style={{ fontSize: '1.6vw', lineHeight: 1 }}>$30,634</p>
+                <p className="text-[#80848f]" style={{ fontSize: '0.55vw', marginTop: '2%' }}>Gap per Customer</p>
+              </div>
+            </div>
           </div>
 
-          {/* Stat box */}
-          <div className="bg-[#1a1a1f] rounded-xl px-[3%] py-[2%] flex flex-col items-center justify-center" style={{ width: '30%' }}>
-            <p className="text-[#fca5a5] font-extrabold" style={{ fontSize: '2.5vw', lineHeight: 1 }}>5.8%</p>
-            <p className="text-white font-semibold mt-[2%]" style={{ fontSize: '0.7vw' }}>IPS RMR</p>
-            <div className="w-[50%] h-[1px] bg-[#374151] my-[3%]" />
-            <p className="text-[#059669] font-bold" style={{ fontSize: '1.2vw' }}>25%+</p>
-            <p className="text-[#80848f]" style={{ fontSize: '0.6vw' }}>Industry Benchmark</p>
+          {/* Attach rates */}
+          <div className="rounded-xl px-[3%] py-[2%]" style={{ width: '35%', background: '#f5f5f8', border: '1px solid #e5e7eb' }}>
+            <p className="font-bold uppercase tracking-wider" style={{ fontSize: '0.55vw', color: '#80848f', marginBottom: '3%' }}>Attach Rates</p>
+            <div style={{ marginBottom: '3%' }}>
+              <p className="font-bold" style={{ fontSize: '0.65vw', color: '#1a1a1f' }}>Monitoring</p>
+              <p style={{ fontSize: '0.6vw', color: '#4b5563' }}><span style={{ color: '#C8202D', fontWeight: 700 }}>15%</span> current {'\u2192'} <span style={{ color: '#059669', fontWeight: 700 }}>60%</span> ideal</p>
+            </div>
+            <div>
+              <p className="font-bold" style={{ fontSize: '0.65vw', color: '#1a1a1f' }}>Service Agreement</p>
+              <p style={{ fontSize: '0.6vw', color: '#4b5563' }}><span style={{ color: '#C8202D', fontWeight: 700 }}>30%</span> current {'\u2192'} <span style={{ color: '#059669', fontWeight: 700 }}>70%</span> ideal</p>
+            </div>
           </div>
+        </div>
+
+        {/* Aggregate gap callout */}
+        <div className="bg-[#1a1a1f] rounded-xl px-[3%] py-[1.5%] flex items-center gap-[3%]" style={{ marginTop: '2%' }}>
+          <div className="w-[0.5%] self-stretch bg-[#fbbf24] rounded-full flex-shrink-0" />
+          <p className="text-white" style={{ fontSize: '0.75vw', lineHeight: 1.5 }}>
+            <span className="font-bold text-[#fbbf24]">Aggregate Gap: ~$21M</span> across 700 direct customers. IPS installs, trains, and walks away. Every un-attached monitoring contract and service agreement is revenue left on the table — and a customer left undefended against competitors.
+          </p>
         </div>
       </div>
     </SlideLayout>

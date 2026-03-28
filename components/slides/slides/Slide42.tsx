@@ -46,6 +46,16 @@ export function Slide42() {
           </p>
         </div>
 
+        {/* Amazon warehouse correction callout */}
+        <div className="flex-shrink-0 rounded-xl" style={{ background: '#fef2f2', border: '2px solid #C8202D', padding: '2% 3%', marginBottom: '2%' }}>
+          <div className="flex items-start gap-[2%]">
+            <span className="font-bold flex-shrink-0" style={{ fontSize: '0.7vw', color: '#C8202D' }}>CRITICAL:</span>
+            <p style={{ fontSize: '0.7vw', color: '#991b1b', lineHeight: 1.5 }}>
+              IPS does Amazon warehouses, not data centers. Warehouse fire alarm is commodity work (NICET II/III). Any competent contractor can perform it. The $23B Ohio data center investment is irrelevant — IPS does not perform data center work. This revenue is less defensible, less sustainable, and MSA-vulnerable.
+            </p>
+          </div>
+        </div>
+
         {/* VTO callout */}
         <div className="flex-shrink-0 rounded-xl" style={{ background: '#fffbeb', border: '2px solid #fbbf24', padding: '2% 3%' }}>
           <div className="flex items-start gap-[2%]">

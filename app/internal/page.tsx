@@ -10,7 +10,7 @@ export default function InternalPage() {
         {/* Hero */}
         <section className="bg-[#1B3A6B] text-white px-6 py-16">
           <div className="max-w-5xl mx-auto">
-            <p className="text-red-400 uppercase tracking-widest text-sm font-semibold mb-4">
+            <p className="text-ips-red uppercase tracking-widest text-sm font-semibold mb-4">
               Phase 2
             </p>
             <h1 className="text-4xl font-extrabold mb-4 leading-tight">Internal Analysis</h1>
@@ -22,7 +22,7 @@ export default function InternalPage() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/internal/presentation"
-                className="bg-red-600 text-white text-sm font-semibold rounded-lg px-5 py-2.5 hover:bg-red-700 transition-colors"
+                className="bg-ips-red text-white text-sm font-semibold rounded-lg px-5 py-2.5 hover:bg-ips-red/90 transition-colors"
               >
                 View Presentation (20 Slides)
               </Link>
@@ -31,6 +31,12 @@ export default function InternalPage() {
                 className="bg-white/10 text-white text-sm font-semibold rounded-lg px-5 py-2.5 hover:bg-white/20 transition-colors"
               >
                 Browse Deliverables
+              </Link>
+              <Link
+                href="/internal/dashboard"
+                className="bg-white/10 text-white text-sm font-semibold rounded-lg px-5 py-2.5 hover:bg-white/20 transition-colors"
+              >
+                Financial Dashboard
               </Link>
             </div>
           </div>
@@ -44,9 +50,9 @@ export default function InternalPage() {
               <Link
                 key={d.slug}
                 href={`/internal/deliverables/${d.slug}`}
-                className="group rounded-xl border border-gray-100 hover:border-red-300 hover:shadow-sm p-5 transition-all"
+                className="group rounded-xl border border-gray-100 hover:border-ips-red/30 hover:shadow-sm p-5 transition-all"
               >
-                <h3 className="font-bold text-ips-dark group-hover:text-red-600 transition-colors">
+                <h3 className="font-bold text-ips-dark group-hover:text-ips-red transition-colors">
                   {d.label}
                 </h3>
                 <p className="text-sm text-ips-gray mt-1">{d.description}</p>

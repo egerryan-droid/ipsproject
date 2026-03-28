@@ -7,11 +7,11 @@ export const IPS_RED = '#C8202D'
 export const IPS_RED_LIGHT = '#fde8e8'
 export const IPS_NAVY = '#1B3A6B'
 export const XAVIER_NAVY = '#14284a'
-export const GREEN = '#217a42'
+export const GREEN = '#16a34a'
 export const GREEN_LIGHT = '#e6f5ec'
-export const RED = '#cc1f1f'
+export const RED = '#C8202D'
 export const RED_LIGHT = '#fde8e8'
-export const ORANGE = '#d96619'
+export const ORANGE = '#d97706'
 export const ORANGE_LIGHT = '#fef0e6'
 export const TEAL = '#0d8090'
 export const TEAL_LIGHT = '#dff3f5'
@@ -129,6 +129,11 @@ export const INTERNAL_DELIVERABLES = [
     slug: 'capstone-thesis',
     label: 'Capstone Thesis',
     description: 'The geography engine, the three recommendations, and the order — buyout first, then pivot, then build',
+  },
+  {
+    slug: 'counter-arguments',
+    label: 'Stress Testing the Thesis',
+    description: 'Seven counter-arguments given their strongest case — and whether the core thesis survives each challenge',
   },
 ] as const
 

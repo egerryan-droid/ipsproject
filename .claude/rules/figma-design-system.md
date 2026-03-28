@@ -12,7 +12,7 @@ IPS Strategic Capstone Portal — a Next.js 16 web application presenting MBA ca
 
 ```typescript
 // Tailwind theme extensions — tailwind.config.ts
-accent: { DEFAULT: '#4950bc', light: '#e8e9f7', dark: '#3a4099' }
+accent: { DEFAULT: '#1B3A6B', light: '#e8edf7', dark: '#122847' }
 ips: { dark: '#1a1a1f', gray: '#80848f', light: '#f5f5f8' }
 
 // Additional tokens — lib/constants.ts
@@ -81,7 +81,7 @@ export function SlideXX() {
   return (
     <div className="w-full h-full bg-white relative overflow-hidden flex flex-col">
       {/* Header bar — act-colored background */}
-      <div className="bg-[#4950bc] px-[4%] py-[2.5%] flex items-center justify-between flex-shrink-0">
+      <div className="bg-[#1B3A6B] px-[4%] py-[2.5%] flex items-center justify-between flex-shrink-0">
         <div>
           <p className="text-white/60 text-[0.75vw] font-semibold uppercase tracking-widest">
             ACT X: TITLE
@@ -102,7 +102,7 @@ export function SlideXX() {
 ```
 
 - IMPORTANT: Every slide must be `w-full h-full` with `overflow-hidden`
-- IMPORTANT: Header uses act-specific background colors (purple=#4950bc for act 1-2, emerald for act 3, orange for act 4, etc.)
+- IMPORTANT: Header uses act-specific background colors (purple=#1B3A6B for act 1-2, emerald for act 3, orange for act 4, etc.)
 - IMPORTANT: Text sizes in slides use `vw` units, NOT Tailwind text-size classes
 - IMPORTANT: Slides with charts use dynamic import with `{ ssr: false }`
 
@@ -212,7 +212,7 @@ When creating new deliverables:
 
 | Act | Header BG | Theme |
 |-----|-----------|-------|
-| 1-2 | `#4950bc` (accent purple) | External environment |
+| 1-2 | `#1B3A6B` (accent purple) | External environment |
 | 3 | Emerald green | Moat & Gaps |
 | 4 | Orange | Path Forward |
 | 5 | Purple variant | Close |

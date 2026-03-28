@@ -241,6 +241,20 @@ The 42% silent partner (age 70) is seeking exit. Buyout pricing depends on timin
 
 ---
 
+## Revenue Defensibility Tiers
+
+The Convergence Score analysis rates every IPS revenue stream on five defensibility dimensions:
+
+| Tier | Revenue | % of Total | Streams | Composite Score |
+|------|---------|-----------|---------|----------------|
+| Defensible (4.0+) | $13.5M | 20% | Inspections, Agreements, Monitoring | 4.4--4.6 |
+| Moderate (3.0--3.9) | $23.4M | 35% | Direct Fire Install, National Accounts | 3.2--3.8 |
+| Vulnerable (<3.0) | $29.9M | 45% | EC Fire Install, Access, CCTV | 1.8--2.8 |
+
+45% of IPS's revenue is rated Vulnerable. The two weakest dimensions across all streams: switching costs (2.5/5.0) and channel capture risk (2.6/5.0) --- the exact vulnerabilities PE consolidation exploits.
+
+---
+
 ## What We Know Versus What We Do Not Know
 
 ### Known (Data-Supported)
