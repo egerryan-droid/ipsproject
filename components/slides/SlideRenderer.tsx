@@ -1,0 +1,61 @@
+'use client'
+import dynamic from 'next/dynamic'
+// Lazy load all slide components
+const slideComponents: Record<string, React.ComponentType> = {
+  Slide01: dynamic(() => import('./slides/Slide01').then(m => ({ default: m.Slide01 })), { ssr: false }),
+  Slide02: dynamic(() => import('./slides/Slide02').then(m => ({ default: m.Slide02 })), { ssr: false }),
+  Slide03: dynamic(() => import('./slides/Slide03').then(m => ({ default: m.Slide03 })), { ssr: false }),
+  Slide04: dynamic(() => import('./slides/Slide04').then(m => ({ default: m.Slide04 })), { ssr: false }),
+  Slide05: dynamic(() => import('./slides/Slide05').then(m => ({ default: m.Slide05 })), { ssr: false }),
+  Slide06: dynamic(() => import('./slides/Slide06').then(m => ({ default: m.Slide06 })), { ssr: false }),
+  Slide07: dynamic(() => import('./slides/Slide07').then(m => ({ default: m.Slide07 })), { ssr: false }),
+  Slide08: dynamic(() => import('./slides/Slide08').then(m => ({ default: m.Slide08 })), { ssr: false }),
+  Slide09: dynamic(() => import('./slides/Slide09').then(m => ({ default: m.Slide09 })), { ssr: false }),
+  Slide10: dynamic(() => import('./slides/Slide10').then(m => ({ default: m.Slide10 })), { ssr: false }),
+  Slide11: dynamic(() => import('./slides/Slide11').then(m => ({ default: m.Slide11 })), { ssr: false }),
+  Slide12: dynamic(() => import('./slides/Slide12').then(m => ({ default: m.Slide12 })), { ssr: false }),
+  Slide13: dynamic(() => import('./slides/Slide13').then(m => ({ default: m.Slide13 })), { ssr: false }),
+  Slide14: dynamic(() => import('./slides/Slide14').then(m => ({ default: m.Slide14 })), { ssr: false }),
+  Slide15: dynamic(() => import('./slides/Slide15').then(m => ({ default: m.Slide15 })), { ssr: false }),
+  Slide16: dynamic(() => import('./slides/Slide16').then(m => ({ default: m.Slide16 })), { ssr: false }),
+  Slide17: dynamic(() => import('./slides/Slide17').then(m => ({ default: m.Slide17 })), { ssr: false }),
+  Slide18: dynamic(() => import('./slides/Slide18').then(m => ({ default: m.Slide18 })), { ssr: false }),
+  Slide19: dynamic(() => import('./slides/Slide19').then(m => ({ default: m.Slide19 })), { ssr: false }),
+  Slide20: dynamic(() => import('./slides/Slide20').then(m => ({ default: m.Slide20 })), { ssr: false }),
+  Slide21: dynamic(() => import('./slides/Slide21').then(m => ({ default: m.Slide21 })), { ssr: false }),
+  Slide22: dynamic(() => import('./slides/Slide22').then(m => ({ default: m.Slide22 })), { ssr: false }),
+  Slide23: dynamic(() => import('./slides/Slide23').then(m => ({ default: m.Slide23 })), { ssr: false }),
+  Slide24: dynamic(() => import('./slides/Slide24').then(m => ({ default: m.Slide24 })), { ssr: false }),
+  Slide25: dynamic(() => import('./slides/Slide25').then(m => ({ default: m.Slide25 })), { ssr: false }),
+  Slide26: dynamic(() => import('./slides/Slide26').then(m => ({ default: m.Slide26 })), { ssr: false }),
+  Slide27: dynamic(() => import('./slides/Slide27').then(m => ({ default: m.Slide27 })), { ssr: false }),
+  Slide28: dynamic(() => import('./slides/Slide28').then(m => ({ default: m.Slide28 })), { ssr: false }),
+  Slide29: dynamic(() => import('./slides/Slide29').then(m => ({ default: m.Slide29 })), { ssr: false }),
+  Slide30: dynamic(() => import('./slides/Slide30').then(m => ({ default: m.Slide30 })), { ssr: false }),
+  Slide31: dynamic(() => import('./slides/Slide31').then(m => ({ default: m.Slide31 })), { ssr: false }),
+  Slide32: dynamic(() => import('./slides/Slide32').then(m => ({ default: m.Slide32 })), { ssr: false }),
+  Slide33: dynamic(() => import('./slides/Slide33').then(m => ({ default: m.Slide33 })), { ssr: false }),
+  Slide34: dynamic(() => import('./slides/Slide34').then(m => ({ default: m.Slide34 })), { ssr: false }),
+  Slide35: dynamic(() => import('./slides/Slide35').then(m => ({ default: m.Slide35 })), { ssr: false }),
+  Slide36: dynamic(() => import('./slides/Slide36').then(m => ({ default: m.Slide36 })), { ssr: false }),
+  Slide37: dynamic(() => import('./slides/Slide37').then(m => ({ default: m.Slide37 })), { ssr: false }),
+  Slide38: dynamic(() => import('./slides/Slide38').then(m => ({ default: m.Slide38 })), { ssr: false }),
+  Slide39: dynamic(() => import('./slides/Slide39').then(m => ({ default: m.Slide39 })), { ssr: false }),
+  Slide40: dynamic(() => import('./slides/Slide40').then(m => ({ default: m.Slide40 })), { ssr: false }),
+  Slide41: dynamic(() => import('./slides/Slide41').then(m => ({ default: m.Slide41 })), { ssr: false }),
+  Slide42: dynamic(() => import('./slides/Slide42').then(m => ({ default: m.Slide42 })), { ssr: false }),
+  Slide43: dynamic(() => import('./slides/Slide43').then(m => ({ default: m.Slide43 })), { ssr: false }),
+  Slide44: dynamic(() => import('./slides/Slide44').then(m => ({ default: m.Slide44 })), { ssr: false }),
+  Slide45: dynamic(() => import('./slides/Slide45').then(m => ({ default: m.Slide45 })), { ssr: false }),
+  Slide46: dynamic(() => import('./slides/Slide46').then(m => ({ default: m.Slide46 })), { ssr: false }),
+  Slide47: dynamic(() => import('./slides/Slide47').then(m => ({ default: m.Slide47 })), { ssr: false }),
+  Slide48: dynamic(() => import('./slides/Slide48').then(m => ({ default: m.Slide48 })), { ssr: false }),
+  Slide49: dynamic(() => import('./slides/Slide49').then(m => ({ default: m.Slide49 })), { ssr: false }),
+  Slide50: dynamic(() => import('./slides/Slide50').then(m => ({ default: m.Slide50 })), { ssr: false }),
+}
+
+export function SlideRenderer({ component, id }: { component: string; id: number }) {
+  const Component = slideComponents[component]
+  if (!Component) return <div className="w-full h-full flex items-center justify-center text-ips-gray">Slide {id}</div>
+  return <Component />
+}

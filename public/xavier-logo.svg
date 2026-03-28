@@ -1,0 +1,33 @@
+<svg viewBox="0 0 120 112" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- X: two thick bands with square linecaps for the flat angular ends Xavier uses -->
+  <!-- Band 1: top-left to bottom-right -->
+  <line x1="8"  y1="2"  x2="92" y2="70" stroke="#14284a" stroke-width="28" stroke-linecap="square"/>
+  <!-- Band 2: top-right to bottom-left -->
+  <line x1="92" y1="2"  x2="8"  y2="70" stroke="#14284a" stroke-width="28" stroke-linecap="square"/>
+  <!-- Inner highlight — thin lighter stripe down each band to give dimension -->
+  <line x1="8"  y1="2"  x2="92" y2="70" stroke="#1e3d7a" stroke-width="9"  stroke-linecap="square"/>
+  <line x1="92" y1="2"  x2="8"  y2="70" stroke="#1e3d7a" stroke-width="9"  stroke-linecap="square"/>
+  <!-- Small ring mark at center cross -->
+  <circle cx="50" cy="36" r="5.5" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="50" cy="36" r="2"   fill="#ffffff"/>
+  <!-- "EXECUTIVE MBA" -->
+  <text
+    x="60" y="90"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="800"
+    fill="#14284a"
+    text-anchor="middle"
+    letter-spacing="1.4"
+  >EXECUTIVE MBA</text>
+  <!-- "PROGRAM" -->
+  <text
+    x="60" y="104"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    font-weight="400"
+    fill="#5a5a6e"
+    text-anchor="middle"
+    letter-spacing="1.4"
+  >PROGRAM</text>
+</svg>
