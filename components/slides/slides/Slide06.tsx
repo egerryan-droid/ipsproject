@@ -2,7 +2,7 @@ import { SlideLayout } from '../SlideLayout'
 
 export function Slide06() {
   return (
-    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="The Convergence Timeline: Three Waves" speaker="Katy Peat">
+    <SlideLayout actNumber={2} actLabel="ACT 2: THE CONVERGENCE SQUEEZE" title="The Convergence Timeline: Three Waves" speaker="Katy Peat">
       <div className="h-full flex flex-col gap-[1.5%]">
         {/* Three columns */}
         <div className="flex-1 grid grid-cols-3 gap-[2%] min-h-0">

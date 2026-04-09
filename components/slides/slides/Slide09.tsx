@@ -93,10 +93,10 @@ export function Slide09() {
                 </span>
               </div>
               <p className="text-[0.75vw] font-semibold text-[#374151] mb-[1.5%]">
-                Verkada $4.5B direct-to-end-user | ECs adding low-voltage | IT/MSPs entering physical security
+                Verkada $4.5B | ECs adding low-voltage | IT/MSPs entering security | ArchKey, EMCOR, IES, Apollo building fire in-house
               </p>
               <p className="text-[0.75vw] text-[#4b5563] leading-relaxed">
-                Lower cost, subscription-first, capturing the easier security work without fire complexity.
+                Cloud-first and subscription-first from below. PE-backed ECs vertically integrating from inside — buying the channel IPS sells through.
               </p>
             </div>
 
@@ -110,7 +110,7 @@ export function Slide09() {
 
             {/* Stat cards */}
             {[
-              { value: '$9.6B', label: 'PE platform debt deployed', color: '#1B3A6B' },
+              { value: '$12B+', label: 'PE capital across three fronts', color: '#1B3A6B' },
               { value: '$680M', label: 'Pye-Barker undrawn capacity', color: '#1B3A6B' },
               { value: '$3.7B', label: 'under one PE firm (Leonard Green)', color: '#1B3A6B' },
               { value: '7-10%', label: 'IPS RMR vs. 25%+ benchmark', color: '#C8202D' },
@@ -138,7 +138,7 @@ export function Slide09() {
           style={{ backgroundColor: '#1a1a1f' }}
         >
           <p className="text-[0.8vw] text-white leading-relaxed">
-            You&apos;re not losing today. But the ceiling is lowering and the floor is rising. The partner buyout makes this existential: grow revenue and RMR fast enough to fund it internally, or the PE offer becomes the only path. The window is 3-5 years.
+            The ceiling is lowering. The floor is rising. The walls are closing in. The partner buyout makes this existential: grow revenue and RMR fast enough to fund it internally, or the PE offer becomes the only path.
           </p>
         </div>
       </div>

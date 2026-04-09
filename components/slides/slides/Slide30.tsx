@@ -4,48 +4,48 @@ const findings = [
   {
     number: '01',
     title: 'Your industry is becoming one market',
-    body: 'Fire, security, electrical, IT, and cyber are merging into building intelligence. PE firms are assembling all capabilities under one roof. The $256B addressable market is reorganizing around whoever can integrate the full stack.',
-    stat: '$256B',
-    statLabel: 'addressable market',
+    body: 'The $256B addressable market is reorganizing around full-stack integration. NFPA 72 (2025) makes convergence official. Cloud grows 4\u00d7 faster than base market.',
+    stat: '71%',
+    statLabel: 'already converged',
     accent: '#1B3A6B',
   },
   {
     number: '02',
     title: 'Someone else is building what you could be',
-    body: 'PE firms have deployed over $12B assembling fire + security + EC + cloud into converged platforms. Nine PE firms now hold positions across three consolidation fronts. Every IPS market is encircled.',
+    body: '$12B+ deployed across nine PE firms and three consolidation fronts. Every IPS market is now encircled. This is an industry reorganization.',
     stat: '$12B+',
-    statLabel: 'PE capital deployed',
+    statLabel: 'across three fronts',
     accent: '#C8202D',
   },
   {
     number: '03',
-    title: 'Fire is defensible but the door is being bought',
-    body: 'Fire protection has zero substitution threat and a 10-year NICET IV moat. But 73% of EC deals are PE-driven — the same ECs that subcontract IPS are being acquired and building fire capability in-house. The door to the customer is changing hands.',
-    stat: '73%',
-    statLabel: 'PE-driven EC deals',
+    title: 'Fire is defensible \u2014 but the door is being bought',
+    body: 'The NICET IV moat is real. But the ECs that subcontract IPS are being acquired and building fire capability in-house. ArchKey is hiring NICET staff now.',
+    stat: '3 of 8',
+    statLabel: 'top EC customers PE-owned',
     accent: '#d97706',
   },
   {
     number: '04',
-    title: 'RMR is the answer — and ECs are coming for it too',
-    body: 'Every $1 of inspection generates $3-4 in annual service revenue. APi Group proved the model at $7.9B. ECs are vertically integrating to capture monitoring, inspection, and managed services — the same recurring revenue IPS needs to fund its partner buyout.',
-    stat: '$1 = $3-4',
-    statLabel: 'inspection to service revenue',
-    accent: '#059669',
+    title: 'RMR is the answer \u2014 and ECs are coming for it too',
+    body: '7\u201310% RMR vs. 25%+ benchmark. The EC channel is now competing for the same recurring revenue pool. Every $1 inspection generates $3\u20134 annual service.',
+    stat: '7\u201310%',
+    statLabel: 'vs. 25%+ benchmark',
+    accent: '#166534',
   },
   {
     number: '05',
     title: 'The window is shorter than we thought',
-    body: 'EC consolidation adds a third front to the convergence squeeze. ArchKey is hiring NICET staff now. Apollo\'s State Group operates in IPS\'s exact geography. The 3-5 year window from our original analysis may be closer to 18-24 months for key accounts.',
-    stat: '90 days',
-    statLabel: 'to assemble capability',
-    accent: '#C8202D',
+    body: 'ArchKey hiring NICET staff now. Apollo in IPS geography. PE M&A assembles fire capability in 90 days. 3\u20135 years may be 18\u201324 months for key accounts.',
+    stat: '18\u201324mo',
+    statLabel: 'for key accounts',
+    accent: '#1B3A6B',
   },
 ]
 
 export function Slide30() {
   return (
-    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="Five Things the External Environment Is Now Telling You" speaker="Ryan Eger">
+    <SlideLayout actNumber={3} actLabel="SYNTHESIS" title="The Question the External Environment Is Asking" speaker="Ryan Eger">
       <div className="h-full flex flex-col gap-[1.2%]">
         {/* Top row: 3 cards */}
         <div className="flex-1 flex gap-[1.2%] min-h-0">
@@ -129,8 +129,8 @@ export function Slide30() {
         <div className="flex-shrink-0 bg-[#1a1a1f] rounded-xl px-[4%] py-[2%]">
           <p className="text-[0.8vw] text-white leading-relaxed">
             <span className="font-bold" style={{ color: '#93c5fd' }}>THE QUESTION: </span>
-            The external environment now shows three convergence fronts, not two. EC consolidation compresses the window and threatens the subcontractor channel.
-            The internal analysis answers it &mdash; what does IPS have to work with, and how fast can it move?
+            Three convergence fronts. EC consolidation compressing the window. A partner buyout that makes growth existential.
+            The internal analysis answers what IPS has to work with, and how fast it can move.
           </p>
         </div>
 

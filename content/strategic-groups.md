@@ -11,9 +11,11 @@ The U.S. commercial fire protection and security integration industry is organiz
 
 This position is the most defensible available to an independent integrator. It combines deep technical capability (NICET Level IV, combined fire + security, 25+ technology partnerships) with deep local relationships (25+ year customer tenure, AHJ trust, fastest response times). However, the position is under increasing pressure from two directions simultaneously: PE-backed national platforms are expanding downward into regional markets through acquisition, and cloud-native disruptors are expanding inward from electronic security toward full-service offerings. Every IPS market — Cincinnati, Columbus, Lexington, and Nashville — now has at least one PE-backed competitor present, with Cincinnati being the most contested.
 
+A third dimension of competitive pressure emerges from the converged physical security analysis: **the profit in this industry is not in geographic reach or technical capability alone — it is in the migration from transactional project delivery to recurring managed services**. Companies that have made this migration (Convergint, Johnson Controls) command the highest margins, stickiest customer relationships, and strongest enterprise value multiples. IPS currently sits in the "advanced-but-transactional" quadrant — high capability delivered through a project-driven revenue model. The strategic imperative is not just to grow, but to migrate the business model rightward and upward: from project-driven to recurring, from hardware installation to intelligent managed platforms.
+
 The central strategic implication is that IPS must grow aggressively enough to fund a partner buyout (42% silent partner, age 70) without selling to PE, while the mobility barriers that protect its position are being systematically eroded by well-capitalized competitors entering its markets. IPS's three-year revenue target of $82 million (2028) and acceleration of recurring revenue from 7-10% toward industry benchmarks are the most critical strategic priorities revealed by this analysis.
 
-*Sources: IPS leadership meeting (March 20, 2026); IPS VTO (printed March 20, 2026); PitchBook [102-112]*
+*Sources: IPS leadership meeting (March 20, 2026); IPS VTO (printed March 20, 2026); PitchBook [102-112]; Strategic groups — Converged Physical Security analysis (2026); industry competitor research (OH_KY_IN data)*
 
 ---
 
@@ -180,6 +182,136 @@ The industry in IPS's markets organizes into four strategic groups. These groupi
 
 ---
 
+## 2A. Converged Physical Security — Strategic Group Maps
+
+The service breadth vs. geographic scope map (Section 2) captures the traditional competitive landscape. Two additional strategic group maps — developed from converged physical security analysis — reveal a more nuanced picture of where profit is actually generated, how competitors are positioning, and where IPS needs to migrate.
+
+The critical insight: **growth is not geographic. Growth is moving right and up on both axes.** The companies generating the highest margins and stickiest revenue are not the ones with the most offices — they are the ones that have migrated from transactional hardware installation toward intelligent, recurring, managed security platforms. Every IPS strategic decision should be evaluated against this migration question: does this move us right and up?
+
+### Map 1: Physical Security Quadrant Model
+
+```
+                    RECURRING / MANAGED
+                    (customer relationship depth)
+                         ^
+                         |
+    Q2: Guarding         |         Q4: Intelligent
+    Companies            |         Managed Security
+    (Securitas,          |         (Convergint,
+     Allied Universal,   |          JCI platform,
+     Prosegur)           |          Everon managed)
+    — Recurring but      |         — Recurring AND
+      low tech depth     |           high sophistication
+                         |         — WHERE PROFIT IS
+                         |           MAXIMIZED
+                         |
+    HARDWARE ←───────────┼───────────→ INTELLIGENT
+    INSTALL              |             INTEGRATED
+    (solution            |             PLATFORM
+    sophistication)      |
+                         |
+    Q1: Basic            |         Q3: Advanced-but-
+    Installers           |         Transactional
+    (Midwest Security,   |         Integrators
+     Royce, HSI,         |         (IPS current,
+     Sec-Tron,           |          Silco, most
+     Executive Security) |          regionals)
+    — Transactional,     |         — High technical
+      commodity pricing  |           capability but
+                         |           project-driven
+                         |           revenue model
+                         v
+                    TRANSACTIONAL
+```
+
+**Four Quadrants Defined:**
+
+- **Q1 (bottom-left): Basic Installers.** Transactional relationships, commodity hardware. Compete on price. Decision makers are facilities managers and procurement. Margins are lowest here. This is where Midwest Security, Royce, HSI, Executive Security, and Sec-Tron operate. IPS should be moving away from competing at this level — every bid IPS submits against commodity installers is a bid that compresses margins and distracts from higher-value work.
+
+- **Q2 (top-left): Guarding Companies.** Recurring revenue through guard contracts and monitoring, but limited technology sophistication. Securitas, Allied Universal, Prosegur. Limited overlap with IPS today. The threat is through the bundling argument — "why use two vendors when we can do guards plus technology?" Securitas is actively pivoting toward a technology/data-led model, investing in remote monitoring and analytics to reduce guard headcount.
+
+- **Q3 (bottom-right): Advanced-but-Transactional Integrators.** Strong technical capability — engineering depth, multi-vendor, multi-discipline — but revenue is project-driven. This is where IPS sits today, along with Silco and most regional integrators. The risk: high capability that gets commoditized because it is delivered transactionally. Customers rebid every project. No lock-in. IPS's 7-10% RMR confirms this positioning.
+
+- **Q4 (top-right): Intelligent Managed Security.** Recurring revenue from managed services, SLA wraps, cyber hygiene for physical security, and lifecycle agreements — delivered through sophisticated integrated platforms. This is where Convergint deliberately migrated through managed services, strategic acquisitions, and SLA wrap. Johnson Controls has its proprietary platform, 250 cybersecurity engineers, and a national SOC. Everon is actively building managed service capabilities post-LBO. **This is where profit is maximized and where IPS needs to be.**
+
+**The Migration Question:** IPS's strategic priority is to migrate from Q3 to Q4 — from advanced-but-transactional to intelligent-managed. This requires three shifts: (1) pre-design advisory work to own the specification before the bid, (2) lifecycle agreements with cyber hygiene for physical security systems, and (3) recurring revenue across the full multi-discipline scope (fire, access, video, intrusion, suppression). Geographic expansion alone does not achieve this migration. Adding offices without changing the revenue model just creates a bigger Q3 company.
+
+### Map 2: Service Complexity vs. Customer Relationship Depth (Scoring Framework)
+
+```
+                    RECURRING RELATIONSHIP
+                    (customer relationship depth)
+                    Score: 3.0
+                         ^
+                         |
+                         |    Convergint (3.0, 2.88)
+                         |    Johnson Controls (3.0, 2.88)
+                         |    Everon (3.0, 2.62)
+                         |    Allied Universal (2.88, 2.75)
+                         |
+                   2.75  |....IPS (2.75, 2.25)
+                         |
+                   2.50  |....Silco (2.5, 1.88)
+                         |
+                         |
+    COMMODITY ←──────────┼──────────→ HIGHLY INTEGRATED
+    Score: 1.0     1.88  |  2.25  2.62  2.88    Score: 3.0
+                         |
+                         v
+                    TRANSACTIONAL
+                    Score: 1.0
+```
+
+**Scoring Methodology:** Each company scored 1-3 per criterion from company websites and public disclosures across two dimensions:
+
+- **X-axis (Service Complexity):** From commodity installation (1) to highly integrated multi-discipline platforms (3). Criteria include number of service lines, engineering capability, vendor breadth, and platform sophistication.
+- **Y-axis (Customer Relationship Depth):** From transactional project work (1) to embedded recurring managed services (3). Criteria include RMR percentage, SLA coverage, managed services offerings, and customer retention mechanisms.
+
+**Key Findings from Scoring:**
+
+| Company | Relationship (Y) | Complexity (X) | Category |
+|---------|------------------|-----------------|----------|
+| IPS | 2.75 | 2.25 | Fire+Physical |
+| Convergint | 3.0 | 2.88 | Converged |
+| Everon | 3.0 | 2.62 | Physical Only to Converged |
+| Johnson Controls | 3.0 | 2.88 | Converged |
+| Silco | 2.5 | 1.88 | Fire+Physical |
+| Allied Universal | 2.88 | 2.75 | Converged |
+
+**IPS's gap is real but closable.** IPS scores 2.75 on relationship depth (vs. Convergint's 3.0) and 2.25 on service complexity (vs. Convergint's 2.88). The relationship gap is smaller than the complexity gap — IPS already has strong customer relationships but delivers them through a less sophisticated service model. The priority is to increase service complexity (managed services, lifecycle agreements, cyber hygiene for physical security) which will also pull relationship depth upward as the revenue model shifts from transactional to recurring.
+
+**Decision-Maker Shift Across Quadrants:** The scoring map reveals a fundamental shift in who IPS sells to as it moves toward Q4:
+
+- **Q1 (commodity):** Decision makers are facilities managers and procurement departments. Buying criteria are price and compliance minimum. Margins are thinnest.
+- **Q4 (integrated/recurring):** Decision makers are CSOs, CISOs, C-suite executives, and enterprise risk officers. Buying criteria are risk reduction, operational continuity, and total cost of ownership. Margins are highest.
+
+IPS's current decision-maker profile skews Q1/Q3 — facilities and procurement. The migration to Q4 requires IPS to learn how to sell to security executives and risk officers, which changes the sales conversation from "how much per door" to "what is the cost of a security breach."
+
+### Geographic Reach vs. Service Scope — OH/KY/IN Regional Map
+
+Competitor positioning in IPS's immediate operating geography (X = Service Scope, Y = Geographic Reach, scored from company research):
+
+| Company | Service Scope (X) | Geographic Reach (Y) | Category |
+|---------|-------------------|---------------------|----------|
+| **IPS** | **2.5** | **3 (Multi-State)** | Fire+Physical |
+| Convergint | 3 | 5 (Global) | Converged |
+| Everon | 3 | 4 (National) | Physical to Converged |
+| Johnson Controls | 3 | 5 (Global) | Converged |
+| Pye-Barker | 2.5 | 4 (National) | Fire+Physical |
+| Silco | 1.5 | 3 (Multi-State) | Fire+Physical |
+| Allied Universal | 3 | 5 (Global) | Converged |
+| Securitas | 3 | 5 (Global) | Converged |
+| Aegis | 2 | 3 (Multi-State) | Physical Only (hybrid) |
+| Cintas Fire | 0.5 | 5 (Global) | Fire Only |
+| Summit Fire | 1.5 | 4 (National) | Fire Only |
+| Vitis Technologies | 3 | 2 (Regional) | Cyber Only |
+
+**Implications:** IPS matches Pye-Barker on service scope (2.5) but is two tiers below on geographic reach. Convergint, JCI, Allied, and Securitas occupy the top-right corner — global reach with full convergence. Silco scores below IPS on service scope (1.5 vs. 2.5), confirming IPS's technical breadth advantage over its most direct local competitor. Vitis Technologies (Blue Ash, Cincinnati metro) is the emerging IT convergence threat — high service sophistication (3) but limited geographic reach (2). Aegis (Cincinnati) is positioned similarly to IPS on geography but with narrower scope — a potential partnership candidate rather than a direct threat.
+
+*Sources: Strategic groups — Converged Physical Security analysis (2026); industry competitor research OH_KY_IN data (2026); IPS leadership meeting (March 20, 2026)*
+
+---
+
 ## 3. Strategic Group Map 2028 — Projected Movement
 
 The strategic group map is not static. By 2028, three significant movements are projected based on current trajectories, capital deployment patterns, and technology adoption trends.
@@ -222,6 +354,8 @@ Cloud-native companies are expanding from narrow electronic security into broade
 ### Movement 3: IPS Growth Trajectory (Group 2, Expanding Scale and RMR)
 
 IPS's own trajectory within Group 2 is aggressive. The three-year EOS target calls for growth from $55M (2025) to $82M (2028), representing a 49% increase over three years. Headcount is projected to grow from 140 to 180 employees, and the branch footprint from 4 to 6 offices (with Atlanta as the most likely next market, followed by a sixth location to be determined). Target margins improve from 30% GM / 10% EBITDA (2026) to 33% GM / 12% EBITDA (2028). Most critically, IPS must shift its recurring revenue percentage from the current 7-10% toward a level that significantly increases enterprise value multiples — enabling the partner buyout without PE involvement. If IPS executes on this trajectory, it will be the largest independent fire and security integrator in the Ohio-Kentucky-Tennessee corridor by 2028, with a geographic footprint and revenue base that creates meaningful barriers to acquisition-driven displacement.
+
+**On the converged physical security maps, IPS must simultaneously move from Q3 toward Q4** — migrating from advanced-but-transactional to intelligent-managed. This means the $82M revenue target is necessary but not sufficient. IPS must also shift its revenue mix: pre-design advisory engagements, lifecycle agreements with embedded cyber hygiene, and multi-discipline managed services. Without this Q3-to-Q4 migration, IPS reaches $82M as a larger version of what it is today — still project-driven, still vulnerable to commoditization, still scoring 2.25 on service complexity while Convergint scores 2.88.
 
 ### Group 3: Consolidation and Attrition
 
@@ -278,6 +412,19 @@ Mobility barriers are the structural factors that prevent firms from easily movi
 | Manufacturer distributorship agreements | High | Protected distribution regions and volume commitments create barriers. IPS's Edwards distributorship took decades to build. |
 
 **Implication for IPS:** Group 3 firms expanding into IPS markets (e.g., Paladin entering Cincinnati/Dayton) are a competitive nuisance but not an existential threat. They lack fire capability, NICET depth, and the manufacturer relationships needed to compete for the institutional and commercial accounts that drive IPS's revenue.
+
+### Barriers to Q3-to-Q4 Migration (Advanced-Transactional to Intelligent-Managed)
+
+The converged physical security analysis identifies a fifth mobility barrier set that is uniquely relevant to IPS's strategic trajectory:
+
+| Barrier | Height | Explanation |
+|---------|--------|-------------|
+| Sales capability transformation | High | Selling managed services to CSOs/CISOs requires different skills, relationships, and value propositions than selling project work to facilities managers. IPS's current sales team is not trained for this conversation. |
+| Recurring revenue infrastructure | Moderate-High | Managed service delivery requires NOC/SOC capability, SLA frameworks, cyber hygiene protocols for physical security, and lifecycle management systems — none of which IPS currently operates at scale. |
+| Customer education | Moderate | Institutional customers accustomed to transactional project procurement must be educated on the value of lifecycle agreements and managed security. This is a market-making exercise, not a bid-board exercise. |
+| Pricing model transformation | Moderate | Shifting from project-based pricing (lump sum, competitive bid) to subscription/managed pricing (monthly recurring, value-based) requires financial modeling capability, customer ROI tools, and sales incentive realignment. |
+
+**Implication for IPS:** The Q3-to-Q4 migration is the strategic priority that underpins every other goal. It is harder than geographic expansion (which is operational) because it requires changing how IPS sells, what IPS delivers, and who IPS sells to. But it is also the migration that generates the recurring revenue needed to fund the partner buyout and the enterprise value multiples needed to make that buyout financially viable.
 
 ---
 
@@ -336,21 +483,23 @@ The January 2025 Pye-Barker recapitalization at $6.1 billion brought Abu Dhabi I
 
 ## 6. Strategic Implications for IPS
 
-### Defending the Lower-Right Quadrant
+### Defending the Lower-Right Quadrant — And Migrating Toward Q4
 
-IPS's position — full-service, regional focus — is defensible but not invulnerable. The strategic imperative is to deepen the moat around this position while growing fast enough to make acquisition economically unattractive to PE buyers and operationally viable for funding the partner buyout.
+IPS's position — full-service, regional focus — is defensible but not invulnerable. The strategic imperative is twofold: (1) deepen the moat around the current position while growing fast enough to make acquisition economically unattractive to PE buyers and operationally viable for funding the partner buyout, and (2) migrate the business model from advanced-but-transactional (Q3 on the converged physical security map) to intelligent-managed (Q4) — because that is where margins, retention, and enterprise value multiples are maximized.
 
 **Priority 1: Accelerate RMR as the enterprise-value multiplier.** IPS's true recurring revenue of 7-10% is the single largest gap between current state and the financial profile needed to fund the partner buyout. Service margins (~50%) are 2.5x project margins (~20%). Every percentage point of revenue shifted from project to recurring directly increases the enterprise value multiple available for financing the 42% buyout. The Brivo/Eagle Eye platform partnership and cloud migration trend provide the vehicle; the gap is in go-to-market execution and sales incentive alignment.
 
-**Priority 2: Leverage the fire-alarm-first bundling strategy.** The mobility barrier analysis confirms that fire/life-safety is the most durable competitive advantage in the industry — it cannot be replicated by cloud disruptors and takes years for PE-backed acquirers to build organically. IPS should position every customer engagement with fire alarm as the anchor, layering security, access control, video, managed services, and specialty categories (ERCES, weapons detection, nurse call) on top. This bundle is the strongest anti-substitution and anti-displacement strategy available.
+**Priority 2: Execute the Q3-to-Q4 migration through three mechanisms.** (1) Pre-design advisory work — own the specification before the bid goes out. When IPS writes the spec, IPS wins the bid. This shifts the competitive dynamic from price-based bidding to relationship-based advisory. (2) Lifecycle agreements with cyber hygiene for physical security systems — package firmware updates, vulnerability assessments, and device lifecycle management into recurring contracts. This is what Convergint does. This is what Johnson Controls does with 250 cybersecurity engineers and a national SOC. IPS can do it locally, with the speed and personal accountability that nationals cannot match. (3) Recurring revenue across the full multi-discipline scope — fire inspection, monitoring, access control managed services, video analytics, and specialty systems (ERCES, weapons detection, nurse call) all bundled into a single managed relationship. The bundle is the moat.
 
-**Priority 3: Execute geographic expansion ahead of PE encirclement.** Atlanta is the next market. IPS should replicate the Nashville model (hire a local industry leader, establish AHJ relationships, pursue small fire alarm acquisitions to gain an installed base). The window for entering new markets as an independent is closing as PE platforms acquire available targets. Each market IPS enters first becomes harder for PE to displace through acquisition.
+**Priority 3: Leverage the fire-alarm-first bundling strategy.** The mobility barrier analysis confirms that fire/life-safety is the most durable competitive advantage in the industry — it cannot be replicated by cloud disruptors and takes years for PE-backed acquirers to build organically. IPS should position every customer engagement with fire alarm as the anchor, layering security, access control, video, managed services, and specialty categories (ERCES, weapons detection, nurse call) on top. This bundle is the strongest anti-substitution and anti-displacement strategy available.
 
-**Priority 4: Convert the installed base before competitors do.** IPS has a 25+ year installed base of fire alarm and security customers across four metro markets. Every customer running on-premise, legacy systems is a conversion opportunity for cloud-managed services — and also a target for PE-backed competitors offering "free" technology upgrades as part of acquisition-driven customer migration. IPS must proactively engage its installed base with XaaS migration offers before competitors reach them.
+**Priority 4: Execute geographic expansion ahead of PE encirclement.** Atlanta is the next market. IPS should replicate the Nashville model (hire a local industry leader, establish AHJ relationships, pursue small fire alarm acquisitions to gain an installed base). The window for entering new markets as an independent is closing as PE platforms acquire available targets. Each market IPS enters first becomes harder for PE to displace through acquisition.
 
-**Priority 5: Build workforce capacity as the binding growth constraint.** The two-year technician ramp, absence of a formal apprenticeship program, and acknowledged gaps in sales training are binding constraints on growth. IPS cannot grow to $82M by 2028 with 140 employees. The EOS target of 180 employees requires hiring approximately 50 people (net of attrition) across four markets over three years — including NICET-tracked technicians who take years to certify. Workforce development is a strategic priority, not an HR function.
+**Priority 5: Convert the installed base before competitors do.** IPS has a 25+ year installed base of fire alarm and security customers across four metro markets. Every customer running on-premise, legacy systems is a conversion opportunity for cloud-managed services — and also a target for PE-backed competitors offering "free" technology upgrades as part of acquisition-driven customer migration. IPS must proactively engage its installed base with XaaS migration offers before competitors reach them. The converged physical security analysis confirms that Everon and Johnson Controls are particularly dangerous here — they price competitively on the install, then lock clients into managed service contracts. IPS must get there first.
 
-**Priority 6: Maintain cultural differentiation as the anti-PE moat.** IPS leadership's 25-year track record of competitive wins against larger players is rooted in a culture of responsiveness, technical expertise, and personal accountability that PE-owned firms structurally struggle to replicate. Every post-acquisition integration disruption at a competitor is an opportunity for IPS to win displaced customers and recruit displaced technicians. This advantage compounds over time — but only if IPS actively invests in the culture (IPS University, core values reinforcement, branch autonomy within EOS discipline) that makes it possible.
+**Priority 6: Build workforce capacity as the binding growth constraint.** The two-year technician ramp, absence of a formal apprenticeship program, and acknowledged gaps in sales training are binding constraints on growth. IPS cannot grow to $82M by 2028 with 140 employees. The EOS target of 180 employees requires hiring approximately 50 people (net of attrition) across four markets over three years — including NICET-tracked technicians who take years to certify. Workforce development is a strategic priority, not an HR function.
+
+**Priority 7: Maintain cultural differentiation as the anti-PE moat.** IPS leadership's 25-year track record of competitive wins against larger players is rooted in a culture of responsiveness, technical expertise, and personal accountability that PE-owned firms structurally struggle to replicate. Every post-acquisition integration disruption at a competitor is an opportunity for IPS to win displaced customers and recruit displaced technicians. This advantage compounds over time — but only if IPS actively invests in the culture (IPS University, core values reinforcement, branch autonomy within EOS discipline) that makes it possible.
 
 ---
 
@@ -358,10 +507,14 @@ IPS's position — full-service, regional focus — is defensible but not invuln
 
 The strategic group analysis reveals an industry in structural transition. PE capital is compressing the map — national platforms are moving downward into regional markets while cloud disruptors are moving rightward toward broader service offerings. The group structure that existed five years ago, when regional independents competed primarily against each other, is being replaced by one where every market is a PE battleground.
 
+The converged physical security analysis adds a critical third dimension to this picture: **the migration from transactional to recurring is where enterprise value is created.** The traditional strategic group map (service breadth vs. geographic scope) explains who competes where. The physical security quadrant model (solution sophistication vs. customer relationship depth) explains who makes money. IPS is well-positioned on the first map. It is underperforming on the second. Closing that gap — moving from Q3 to Q4, from 7-10% RMR to 15%+, from project-driven to lifecycle-managed — is the defining strategic priority.
+
+Three threats converge on IPS simultaneously: commoditization from below (basic installers compressing margins on lower-end bids), displacement from above (PE-backed nationals entering IPS markets with capital, scale, and managed service platforms), and convergence from the side (IT/cyber managed service providers like Vitis adding physical security to their portfolios). The recommended hybrid strategy — pre-design advisory, lifecycle agreements with cyber hygiene, recurring revenue across full multi-discipline scope — addresses all three threat vectors simultaneously by positioning IPS in the quadrant where none of these threats can easily follow.
+
 IPS occupies the most defensible position available to an independent integrator. The combination of NICET IV certification, combined fire + security capability, the largest privately-held EST/Edwards distributorship nationally, 25+ year customer relationships, and independent ownership creates a moat that is genuinely difficult to replicate. But moats erode if not reinforced.
 
-The partner buyout is the forcing function. IPS must grow from $55M to $82M, shift recurring revenue from 7-10% toward industry benchmarks, expand to 6 branches, and maintain 33% gross margins and 12% EBITDA — all within three years, all without PE capital, and all while PE-backed competitors with billions in deployed capital systematically enter every market IPS operates in. This is the defining strategic challenge revealed by the strategic group analysis: the intersection of PE consolidation pressure with an internal ownership transition that demands growth, independence, and financial discipline simultaneously.
+The partner buyout is the forcing function. IPS must grow from $55M to $82M, shift recurring revenue from 7-10% toward industry benchmarks, expand to 6 branches, and maintain 33% gross margins and 12% EBITDA — all within three years, all without PE capital, and all while PE-backed competitors with billions in deployed capital systematically enter every market IPS operates in. This is the defining strategic challenge revealed by the strategic group analysis: the intersection of PE consolidation pressure with an internal ownership transition that demands growth, independence, and financial discipline simultaneously. The converged physical security maps make the path clear: grow right and up. Not just bigger — smarter.
 
 ---
 
-*Sources: IPS leadership meeting (March 20, 2026); IPS VTO (printed March 20, 2026); IPS Service Flyer (McHugh, 2024); PitchBook [102-112]; full bibliography in `research/sources.md` [Sources 1-112]*
+*Sources: IPS leadership meeting (March 20, 2026); IPS VTO (printed March 20, 2026); IPS Service Flyer (McHugh, 2024); PitchBook [102-112]; Strategic groups — Converged Physical Security analysis (2026); industry competitor research OH_KY_IN data (2026); full bibliography in `research/sources.md` [Sources 1-112]*

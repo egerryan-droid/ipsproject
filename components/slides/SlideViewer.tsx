@@ -102,7 +102,15 @@ export function SlideViewer({ slides = SLIDES }: { slides?: Slide[] }) {
             <text x="120" y="76" fontFamily="Arial, Helvetica, sans-serif" fontSize="8.5" fontWeight="600" fill="#ffffff" textAnchor="middle" letterSpacing="1.5">INTEGRATED PROTECTION SERVICES</text>
           </svg>
         </div>
-        <div className="pointer-events-auto">
+        <div className="pointer-events-auto flex items-center gap-4">
+          <a
+            href="/IPS_External_Analysis.pptx"
+            download="IPS_External_Analysis.pptx"
+            className="text-white/30 hover:text-white/60 text-xs transition-colors flex items-center gap-1"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download PPTX
+          </a>
           <span className="text-white/20 text-xs">Scroll to navigate</span>
         </div>
       </div>

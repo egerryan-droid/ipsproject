@@ -55,6 +55,13 @@ const slideComponents: Record<string, React.ComponentType> = {
   Slide51: dynamic(() => import('./slides/Slide51').then(m => ({ default: m.Slide51 })), { ssr: false }),
   Slide52: dynamic(() => import('./slides/Slide52').then(m => ({ default: m.Slide52 })), { ssr: false }),
   Slide53: dynamic(() => import('./slides/Slide53').then(m => ({ default: m.Slide53 })), { ssr: false }),
+  Slide54: dynamic(() => import('./slides/Slide54').then(m => ({ default: m.Slide54 })), { ssr: false }),
+  Slide55: dynamic(() => import('./slides/Slide55').then(m => ({ default: m.Slide55 })), { ssr: false }),
+  Slide56: dynamic(() => import('./slides/Slide56').then(m => ({ default: m.Slide56 })), { ssr: false }),
+  Slide57: dynamic(() => import('./slides/Slide57').then(m => ({ default: m.Slide57 })), { ssr: false }),
+  Slide58: dynamic(() => import('./slides/Slide58').then(m => ({ default: m.Slide58 })), { ssr: false }),
+  Slide59: dynamic(() => import('./slides/Slide59').then(m => ({ default: m.Slide59 })), { ssr: false }),
+  Slide60: dynamic(() => import('./slides/Slide60').then(m => ({ default: m.Slide60 })), { ssr: false }),
 }
 
 export function SlideRenderer({ component, id }: { component: string; id: number }) {

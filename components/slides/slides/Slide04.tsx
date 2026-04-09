@@ -2,7 +2,7 @@ import { SlideLayout } from '../SlideLayout'
 
 export function Slide04() {
   return (
-    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="Two Industries Becoming One" speaker="Katy Peat">
+    <SlideLayout actNumber={2} actLabel="ACT 2: THE CONVERGENCE SQUEEZE" title="Two Industries Becoming One" speaker="Katy Peat">
       <div className="h-full flex flex-col">
         {/* Main body */}
         <div className="flex flex-1 overflow-hidden min-h-0">
@@ -26,10 +26,10 @@ export function Slide04() {
                 FIRE &amp; LIFE SAFETY
               </p>
               <p className="font-extrabold text-white text-center" style={{ fontSize: '2.4vw', paddingLeft: '12%', paddingRight: '38%', marginTop: '3%' }}>
-                $33.2B
+                $88.9B
               </p>
               <p className="text-white text-center" style={{ fontSize: '0.65vw', opacity: 0.8, paddingLeft: '12%', paddingRight: '38%', marginTop: '2%' }}>
-                NAICS 238210
+                Global 2024 · 6.6% CAGR
               </p>
             </div>
 
@@ -49,10 +49,10 @@ export function Slide04() {
                 ELECTRONIC SECURITY
               </p>
               <p className="font-extrabold text-white text-center" style={{ fontSize: '2.4vw', paddingRight: '12%', paddingLeft: '38%', marginTop: '3%' }}>
-                $33.2B+
+                $147.4B
               </p>
               <p className="text-white text-center" style={{ fontSize: '0.65vw', opacity: 0.8, paddingRight: '12%', paddingLeft: '38%', marginTop: '2%' }}>
-                NAICS 561621
+                Global 2024 · 6.5% CAGR
               </p>
             </div>
 
@@ -122,9 +122,9 @@ export function Slide04() {
               </div>
 
               <div className="rounded-xl" style={{ background: '#f5f5f8', padding: '4% 5%', border: '1px solid #e8e9f0' }}>
-                <p className="font-extrabold leading-none" style={{ fontSize: '1.6vw', color: '#1B3A6B' }}>7.5%</p>
+                <p className="font-extrabold leading-none" style={{ fontSize: '1.6vw', color: '#1B3A6B' }}>6.5–6.6%</p>
                 <p className="leading-tight" style={{ fontSize: '0.65vw', color: '#1a1a1f', marginTop: '4%' }}>
-                  Addressable fire systems CAGR 2025-2035
+                  Global CAGR for both fire protection and physical security (2024–2030)
                 </p>
               </div>
 
@@ -136,9 +136,9 @@ export function Slide04() {
               </div>
 
               <div className="rounded-xl" style={{ background: '#f5f5f8', padding: '4% 5%', border: '1px solid #e8e9f0' }}>
-                <p className="font-extrabold leading-none" style={{ fontSize: '1.6vw', color: '#1B3A6B' }}>71%</p>
+                <p className="font-extrabold leading-none" style={{ fontSize: '1.6vw', color: '#1B3A6B' }}>73%</p>
                 <p className="leading-tight" style={{ fontSize: '0.65vw', color: '#1a1a1f', marginTop: '4%' }}>
-                  of organizations already operating converged unified systems
+                  require open architecture platforms · 71% already operating unified systems
                 </p>
               </div>
 
@@ -154,7 +154,7 @@ export function Slide04() {
           <div className="flex items-start gap-[1%]">
             <span className="font-bold flex-shrink-0" style={{ fontSize: '0.75vw', color: '#1B3A6B' }}>KEY INSIGHT:</span>
             <span style={{ fontSize: '0.75vw', color: '#1a1a1f' }}>
-              You describe yourselves as 50% fire, 50% security. The market sees one market. IPS sits at the intersection of a $256B addressable opportunity — 11.5x the average firm — but at $55M, that&apos;s still less than 0.02% of the total.
+              You describe yourselves as 50% fire, 50% security. The market increasingly sees one market. IPS sits at the intersection of a $256B opportunity — 11.5× the average firm — but at $55M, that&apos;s still &lt;0.02% of TAM.
             </span>
           </div>
           <p style={{ fontSize: '0.55vw', color: '#80848f', marginTop: '0.5%' }}>

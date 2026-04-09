@@ -61,13 +61,33 @@ const peRows = [
     scale: '$390M+',
     significance: 'Expanding eastward into IPS markets',
   },
+  {
+    firm: '26North',
+    firmSub: 'ArchKey',
+    fire: { text: 'Building in-house', color: '#d97706' },
+    security: { text: 'YES', color: '#C8202D' },
+    cloud: { text: 'Limited', color: '#9ca3af' },
+    cyber: { text: 'No', color: '#9ca3af' },
+    scale: '$1.4B EC',
+    significance: "IPS's $2.5M customer — hiring NICET staff now",
+  },
+  {
+    firm: 'Apollo',
+    firmSub: 'State Group',
+    fire: { text: 'YES', color: '#C8202D' },
+    security: { text: 'YES', color: '#C8202D' },
+    cloud: { text: 'No', color: '#9ca3af' },
+    cyber: { text: 'No', color: '#9ca3af' },
+    scale: 'Regional',
+    significance: 'Fire + security + EC in KY/IN/TN — IPS geography',
+  },
 ]
 
 const colHeaders = ['PE FIRM', 'FIRE', 'SECURITY', 'CLOUD/SAAS', 'CYBER', 'SCALE', 'SIGNIFICANCE']
 
 export function Slide05() {
   return (
-    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="$9.6 Billion Is Pointed at Your Market" speaker="Katy Peat">
+    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="$12 Billion Is Pointed at Your Market" speaker="Katy Peat">
       <div className="h-full flex flex-col">
         {/* Table area */}
         <div className="flex-1 flex flex-col overflow-hidden">
@@ -149,7 +169,7 @@ export function Slide05() {
           <div className="flex items-start gap-[1%]">
             <span className="font-bold flex-shrink-0" style={{ fontSize: '0.75vw', color: '#C8202D' }}>KEY INSIGHT:</span>
             <span style={{ fontSize: '0.75vw', color: '#1a1a1f' }}>
-              Combined PE platform debt exceeds $9.6B. Pye-Barker alone has $680M in undrawn capacity. This isn&apos;t competition — it&apos;s an industry reorganization backed by the world&apos;s largest capital pools.
+              Combined PE capital across three fronts exceeds $12B. Pye-Barker alone has $680M in undrawn capacity. This isn&apos;t competition — it&apos;s an industry reorganization backed by the world&apos;s largest capital pools.
             </span>
           </div>
           <p style={{ fontSize: '0.55vw', color: '#80848f', marginTop: '0.5%' }}>

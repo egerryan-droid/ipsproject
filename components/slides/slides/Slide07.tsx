@@ -16,7 +16,7 @@ const StrategicGroupMapChart = dynamic(
 
 export function Slide07() {
   return (
-    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="Strategic Group Map: 2025 (Today)" speaker="Kyu Hyuk Choi">
+    <SlideLayout actNumber={2} actLabel="ACT 2: THE CONVERGENCE SQUEEZE" title="Strategic Group Map: 2025 vs. 2028" speaker="Kyu Hyuk Choi">
       <div className="h-full flex flex-col">
         <div className="flex justify-end mb-[0.5%]">
           <span className="bg-[#1B3A6B]/10 text-[#1B3A6B] text-[0.65vw] font-bold px-[2%] py-[0.5%] rounded-full">INTERACTIVE — HOVER FOR DETAILS</span>
