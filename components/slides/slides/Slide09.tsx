@@ -27,7 +27,7 @@ export function Slide09() {
                 </span>
               </div>
               <p className="text-[0.75vw] font-semibold text-[#374151] mb-[1.5%]">
-                Convergint + Deloitte cyber | Pye-Barker 57 acquisitions/yr | Allied Universal $20B+
+                Convergint + Deloitte cyber | Pye-Barker 57 acq/yr, $6.1B valuation | 261 deals in 3 years, pace tripled | Allied Universal $20B+
               </p>
               <p className="text-[0.75vw] text-[#4b5563] leading-relaxed">
                 They offer everything IPS offers PLUS cybersecurity, IT managed services, national scale, and subscription platforms.
@@ -93,7 +93,7 @@ export function Slide09() {
                 </span>
               </div>
               <p className="text-[0.75vw] font-semibold text-[#374151] mb-[1.5%]">
-                Verkada $4.5B | ECs adding low-voltage | IT/MSPs entering security | ArchKey, EMCOR, IES, Apollo building fire in-house
+                Verkada $5.8B | Brivo+Eagle Eye merged | ECs adding low-voltage | IT/MSPs entering security | ArchKey, EMCOR, IES, Apollo building fire in-house
               </p>
               <p className="text-[0.75vw] text-[#4b5563] leading-relaxed">
                 Cloud-first and subscription-first from below. PE-backed ECs vertically integrating from inside — buying the channel IPS sells through.
@@ -110,9 +110,9 @@ export function Slide09() {
 
             {/* Stat cards */}
             {[
-              { value: '$12B+', label: 'PE capital across three fronts', color: '#1B3A6B' },
+              { value: '$9.24B+', label: 'Disclosed PE platform debt', color: '#1B3A6B' },
               { value: '$680M', label: 'Pye-Barker undrawn capacity', color: '#1B3A6B' },
-              { value: '$3.7B', label: 'under one PE firm (Leonard Green)', color: '#1B3A6B' },
+              { value: '261', label: 'Deals in 3 years — 17 in OH/KY/TN. Pace tripled.', color: '#1B3A6B' },
               { value: '7-10%', label: 'IPS RMR vs. 25%+ benchmark', color: '#C8202D' },
             ].map((stat) => (
               <div

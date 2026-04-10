@@ -6,9 +6,9 @@ const players = [
   {
     firm: 'Leonard Green / Pye-Barker',
     revenue: '$1.0B',
-    model: 'Roll-up: 57 acquisitions/yr',
-    geography: 'Mason OH, Somerset KY, Louisville KY',
-    threat: 'Largest PE fire platform. In IPS geography. Leonard Green also owns Convergint.',
+    model: 'Roll-up: 57 acquisitions/yr, 54 subsidiaries. SOFR+250 spread.',
+    geography: 'Mason OH, Somerset KY, Louisville KY, Care Security Louisville KY (Nov 2025), HT Systems Greenwood IN (Nov 2025)',
+    threat: 'Largest PE fire platform. $4.31B total raised, $6.1B valuation with ADIA+GIC sovereign wealth. $680M undrawn capacity.',
     color: '#C8202D',
   },
   {
@@ -28,11 +28,19 @@ const players = [
     color: '#d96619',
   },
   {
+    firm: 'Summit Fire & Security (SFP Holding)',
+    revenue: '$800M+',
+    model: '#1 acquirer: 43 total investments (11 in TTM). Status: Actively Seeking New Investments. CI Capital Partners co-invested on early deals.',
+    geography: 'West Chester Township OH + national. Sister co: Protegis Fire & Security (Louisville, KY)',
+    threat: '43 acquisitions makes Summit the most active fire acquirer. Now PE-owned post-SRS deal. Accelerating pace with 11 deals in trailing twelve months.',
+    color: '#C8202D',
+  },
+  {
     firm: 'APi Group (Chubb Fire & Security)',
-    revenue: '$7.9B',
-    model: 'EC \u2192 life safety platform conversion',
-    geography: 'Global \u2014 proof of concept',
-    threat: 'Proved the playbook: buy EC, add fire+security, capture RMR. Every $1 inspection = $3\u20134 annual service.',
+    revenue: '$7.911B',
+    model: 'EC \u2192 life safety platform. $21.25B EV, 16.80x EV/EBITDA, $1.265B EBITDA, 29K employees, SOFR+175.',
+    geography: 'Global + All State Fire & Security subsidiary in Harrison, OH (Cincinnati metro)',
+    threat: 'Proved the playbook: buy EC, add fire+security, capture RMR. Every $1 inspection = $3\u20134 annual service. Mkt Cap $19.09B (+95.92% YoY).',
     color: '#1B3A6B',
   },
 ]

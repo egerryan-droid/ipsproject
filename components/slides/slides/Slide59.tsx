@@ -5,18 +5,18 @@ import { SlideLayout } from '../SlideLayout'
 const players = [
   {
     firm: 'Leonard Green / Convergint',
-    revenue: '$2.7B',
-    model: '22+ acquisitions. Deloitte cyber partnership. Full-stack platform.',
+    revenue: '$3.0B+',
+    model: '22+ acquisitions. Deloitte cyber partnership. Full-stack platform. $2.70B total debt, now $3.0B+ current.',
     geography: 'Cincinnati + Nashville (entered 2025)',
     threat: 'Most complete converged platform. Cyber + cloud + fire + security. Already in IPS markets.',
     color: '#C8202D',
   },
   {
     firm: 'GTCR / Everon (ex-ADT Commercial)',
-    revenue: '$782M',
-    model: 'Residential \u2192 commercial expansion. SimpliSafe bolt-on.',
-    geography: 'Columbus + Louisville',
-    threat: 'Direct IPS geography overlap. Subscription-first model.',
+    revenue: '$781.7M',
+    model: '$100M acquisition facility (Feb 2025). 8 acquisitions since Oct 2023. SimpliSafe bolt-on.',
+    geography: 'Columbus + Louisville + Newtech Systems Ashland KY (Dec 2023)',
+    threat: 'Direct IPS geography overlap. Subscription-first model. Active M&A in KY/OH corridor.',
     color: '#C8202D',
   },
   {
@@ -37,11 +37,19 @@ const players = [
   },
   {
     firm: 'Verkada (VC-backed)',
-    revenue: '$350M+ est.',
-    model: 'Direct-to-end-user. $4.5B valuation. Subscription-only.',
+    revenue: '$700M',
+    model: 'Direct-to-end-user. $5.8B valuation. 40% growth. Subscription-only.',
     geography: 'National direct \u2014 bypasses integrators',
     threat: 'Not PE roll-up but same effect: capturing security spend without the integrator channel.',
     color: '#80848f',
+  },
+  {
+    firm: 'Brivo + Eagle Eye (merger)',
+    revenue: 'Combined',
+    model: 'Merged Dec 2025. Combined cloud access control + video platform.',
+    geography: 'National \u2014 cloud-native platform',
+    threat: 'Cloud-first converged security platform. Eliminates need for on-premise integrator model.',
+    color: '#0d8090',
   },
 ]
 
@@ -84,7 +92,7 @@ export function Slide59() {
           {[
             { val: '242', label: 'Security sector transactions in 2025', color: '#C8202D' },
             { val: '+24%', label: 'YoY increase in deal volume', color: '#C8202D' },
-            { val: '$3.7B', label: 'Under one PE firm (Leonard Green)', color: '#1B3A6B' },
+            { val: '$7.3B+', label: 'Under one PE firm (Leonard Green)', color: '#1B3A6B' },
             { val: '82%', label: 'Planning cloud access control', color: '#0d8090' },
           ].map((s) => (
             <div key={s.label} className="bg-gray-50 rounded-lg px-[3%] py-[1.5%] text-center">

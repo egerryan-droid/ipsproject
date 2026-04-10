@@ -4,12 +4,12 @@ const peRows = [
   {
     firm: 'Leonard Green',
     firmSub: 'via funds',
-    fire: { text: 'Pye-Barker $1B', color: '#C8202D' },
-    security: { text: 'Convergint $2.7B', color: '#C8202D' },
+    fire: { text: 'Pye-Barker $4.31B raised', color: '#C8202D' },
+    security: { text: 'Convergint $3.0B+', color: '#C8202D' },
     cloud: { text: 'YES', color: '#059669' },
     cyber: { text: 'Via Deloitte', color: '#059669' },
-    scale: '$3.7B combined',
-    significance: 'Controls #1 AND #2 PE platforms simultaneously',
+    scale: '$7.3B+ combined',
+    significance: 'Controls #1 AND #2 PE platforms. Pye-Barker $6.1B valuation (ADIA+GIC sovereign wealth).',
   },
   {
     firm: 'Lone Star',
@@ -25,10 +25,10 @@ const peRows = [
     firm: 'GTCR',
     firmSub: '',
     fire: { text: 'None', color: '#9ca3af' },
-    security: { text: 'Everon $782M', color: '#C8202D' },
+    security: { text: 'Everon $781.7M', color: '#C8202D' },
     cloud: { text: 'SimpliSafe', color: '#9ca3af' },
     cyber: { text: 'Limited', color: '#9ca3af' },
-    scale: '$782M+',
+    scale: '$781.7M+',
     significance: 'Residential to commercial expansion; Columbus + Louisville',
   },
   {
@@ -87,7 +87,7 @@ const colHeaders = ['PE FIRM', 'FIRE', 'SECURITY', 'CLOUD/SAAS', 'CYBER', 'SCALE
 
 export function Slide05() {
   return (
-    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="$12 Billion Is Pointed at Your Market" speaker="Katy Peat">
+    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="$9.24B+ in Disclosed PE Platform Debt Is Pointed at Your Market" speaker="Katy Peat">
       <div className="h-full flex flex-col">
         {/* Table area */}
         <div className="flex-1 flex flex-col overflow-hidden">
@@ -169,7 +169,7 @@ export function Slide05() {
           <div className="flex items-start gap-[1%]">
             <span className="font-bold flex-shrink-0" style={{ fontSize: '0.75vw', color: '#C8202D' }}>KEY INSIGHT:</span>
             <span style={{ fontSize: '0.75vw', color: '#1a1a1f' }}>
-              Combined PE capital across three fronts exceeds $12B. Pye-Barker alone has $680M in undrawn capacity. This isn&apos;t competition — it&apos;s an industry reorganization backed by the world&apos;s largest capital pools.
+              $9.24B+ in disclosed PE platform debt. Combined annual M&amp;A budgets of $1.0-1.8B/year. Pye-Barker alone has $680M in undrawn capacity. This isn&apos;t competition — it&apos;s an industry reorganization backed by sovereign wealth funds and the world&apos;s largest capital pools.
             </span>
           </div>
           <p style={{ fontSize: '0.55vw', color: '#80848f', marginTop: '0.5%' }}>

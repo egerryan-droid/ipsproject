@@ -11,7 +11,7 @@ IPS operates in a $22+ billion U.S. fire protection and security installation in
 
 IPS is positioned in the lower-right quadrant of the strategic group map: full-service with regional focus. This is the most defensible position for an independent integrator, combining deep service capability with deep local relationships. IPS's competitive advantages — NICET Level IV certification, combined fire-plus-security capability, the largest privately-held EST/Edwards distributorship nationally (~$6M/year), independent ownership, and 25+ year customer relationships — are durable but face growing pressure from well-capitalized national platforms.
 
-Converged physical security analysis identifies three simultaneous threat vectors: commoditization from below (basic installers compressing margins), displacement from above (PE-backed nationals with managed service platforms), and convergence from the side (IT/cyber MSPs adding physical security). The most immediate threats are Everon (actively acquiring Midwest regional integrators) and Johnson Controls (proprietary platform, 250 cybersecurity engineers, national SOC) — both combine national resources with local presence and can price competitively on installation then lock clients into managed service contracts.
+Converged physical security analysis identifies three simultaneous threat vectors: commoditization from below (basic installers compressing margins), displacement from above (PE-backed nationals with managed service platforms), and convergence from the side (IT/cyber MSPs adding physical security). PitchBook intelligence reveals the scale: $9.24B+ in combined PE platform debt, $15-20B+ in estimated enterprise value, $1.0-1.8B/year in combined M&A budgets, and $1.0-1.3B in undrawn acquisition facilities ready to deploy. Deal pace in OH/KY/TN has tripled from 3 (2023) to 9 (2025), with 17 fire/security M&A deals in IPS's tri-state geography in three years. Five PE-backed platforms now have physical presence in Cincinnati. Summit Fire & Security — the #1 acquirer in the entire PitchBook dataset with 43 total deals (11 in the trailing twelve months alone), accelerating from ~5/year to 14 in 2025 — acquired two Ohio companies in 2025 and operates sister company Protegis Fire & Security in Louisville, KY, directly overlapping IPS geography. The most immediate threats remain Everon (actively acquiring Midwest regional integrators, $100M acquisition facility raised Feb 2025) and Johnson Controls (proprietary platform, 250 cybersecurity engineers, national SOC) — both combine national resources with local presence and can price competitively on installation then lock clients into managed service contracts.
 
 The defining strategic reality is the partner buyout: a silent partner who owns 42% of IPS is age 70 and wants to exit. IPS leadership wants to fund this buyout without PE. Growth (especially RMR growth) is therefore existential — it directly drives the enterprise value multiples needed to finance the transaction. IPS's current true recurring revenue of 7-10% is well below industry benchmarks, making RMR acceleration the single highest-leverage strategic priority.
 
@@ -57,13 +57,14 @@ The industry in IPS's markets organizes into five strategic groups based on serv
 
 | Company | PE Owner | Revenue | Employees | IPS Market Overlap |
 |---------|----------|---------|-----------|-------------------|
-| Convergint | Leonard Green (maj) / Ares (maj) / Harvest (min) | $2.7B (FY2024) | 11,000 | Cincinnati (Digital Visions, 2025), Nashville (Fiber Solutions, 2025) |
-| Pye-Barker | Leonard Green (maj) / ADIA / GIC / Altas | $1.0B (FY2023); $6.1B valuation | 8,000 | Mason OH (Shiver Security), Somerset KY (Modern Systems), Louisville KY (Care Security) |
-| Everon | GTCR | $781.7M (FY2024); $1.61B LBO valuation | 5,000 | Columbus OH, Louisville KY |
+| Convergint | Leonard Green (maj) / Ares (continuation) / Harvest (min) — 3 PE sponsors simultaneously; 7 PE board seats out of 15 | $2.7B (FY2024), up from $2.5B (FY2023) — 8% YoY; $3.0B+ total debt across 22 financing deals; 20 known subsidiaries (US, Australia, UAE, China, Romania, Canada) | 11,000 | Cincinnati (Digital Visions, 2025), Nashville (Fiber Solutions, 2025) |
+| Pye-Barker | Leonard Green (maj) / ADIA / GIC (sovereign wealth: $6.1B valuation, Jan 2025) / Altas (exited at 25% IRR in 3.5 years) | $1.0B (FY2023); $6.1B valuation; $4.31B total raised; debt spread compressed SOFR+550→SOFR+250 (near investment-grade); 54 known subsidiaries; 5 dedicated M&A executives on payroll | 8,000 | Mason OH (Shiver Security), Somerset KY (Modern Systems), Louisville KY (Care Security, Nov 2025), Greenwood IN (HT Systems, Nov 2025) |
+| Everon | GTCR | $781.7M (FY2024); $1.61B LBO valuation; $100M acquisition facility raised Feb 2025; 8 add-on acquisitions since Oct 2023 LBO | 5,000 | Columbus OH, Louisville KY, Ashland KY (Newtech Systems, Dec 2023) |
 | Pavion | Wind Point Partners | $625.3M (FY2024, parent) | ~2,000+ (parent est.) | Cincinnati (via Turnkey Technology sister company) |
+| Summit Fire & Security | SFP Holding (Mendota Heights, MN, founded 1999); 12 professionals; CEO Jeff Evrard (20 deals led); CI Capital Partners co-investor (2019-2020) | **$N/A revenue (43 deals total, 11 in TTM — #1 acquirer in PitchBook dataset)**; "Actively Seeking New Investments"; investment preference: Add-on, Buyout/LBO, M&A — majority stake; accelerating pace: ~5/year early → 14 in 2025 → 3 in Jan-Feb 2026 alone | N/A | West Chester Township OH (Total Life Safety, Aug 2025); Ashland OH (Alta Protection Services, Mar 2025); **sister company Protegis Fire & Security in Louisville, KY** (founded 1985) — IPS geography; subsidiaries: IFS Fire & Safety (TX), Performance Systems Integration (OR), FoosFire (NY), Fire Alarm Specialty Design (CT), Fire Safety Sales (NM), Gordon Fire Equipment (NY); sister companies: Badger Fire (WI), Bay Line Fire (MI), Byrd's Fire (UT), A-1 National Fire (NV), Alliance Fire (AZ), Performance Based Fire Protection Engineering (NC), General Fire & Safety (NE) |
 | Sciens | Carlyle Group | N/A ($390M raised) | 1,200 | Not yet in OH/KY/TN — expanding eastward |
 
-*Sources: PitchBook [102, 103, 104, 106]*
+*Sources: PitchBook [102, 103, 104, 106]; PitchBook fire/security M&A dataset (2023-2025)*
 
 **Strategic behavior:** Growth through acquisition, centralized back-office operations, decentralized field operations, EBITDA margin targeting, cross-selling across acquired customer bases, leveraging national scale for enterprise accounts.
 
@@ -110,18 +111,18 @@ The industry in IPS's markets organizes into five strategic groups based on serv
 
 **Characteristics:** Technology-first companies that bypass or supplement the traditional integrator channel.
 
-| Company | Model | Revenue | Focus |
-|---------|-------|---------|-------|
-| Verkada | Direct-to-customer + channel hybrid | $350M+ (2024) | Cloud video, access control, sensors |
-| Brivo (merged with Eagle Eye) | Cloud platform for integrators | N/A (73,000+ locations) | ACaaS + VSaaS + AI platform |
+| Company | Model | Revenue / Valuation | Focus |
+|---------|-------|---------------------|-------|
+| Verkada | Direct-to-customer + channel hybrid | **$700M revenue (2025), 40% growth, $5.8B valuation**; AI-Powered Deterrence launched Feb 2026 | Cloud-native video, access control, sensors, environmental monitoring; platform bypasses traditional integrators |
+| Brivo + Eagle Eye Networks (merged Dec 2025) | Cloud platform for integrators + direct | **$141M Brivo revenue; Eagle Eye valued at $1.6B separately** pre-merger; combined cloud access + cloud video platform | ACaaS + VSaaS + AI platform; merged entity creates the largest independent cloud physical security platform |
 
-**Strategic behavior:** Sell cloud-managed solutions directly to IT departments or through channel partners. Subscription-based revenue. Minimize on-site hardware and installation complexity.
+**Strategic behavior:** Sell cloud-managed solutions directly to IT departments or through channel partners. Subscription-based revenue. Minimize on-site hardware and installation complexity. Verkada's AI-Powered Deterrence (Feb 2026) uses on-camera AI to detect threats and trigger automated responses — further reducing the need for human monitoring and traditional integration. The Brivo + Eagle Eye merger (Dec 2025) creates a combined cloud access control + cloud video platform that can serve as a complete alternative to traditional on-premise VMS and access control systems.
 
-**Strengths:** Technology innovation, recurring revenue model, customer simplicity, rapid feature deployment.
+**Strengths:** Technology innovation, recurring revenue model, customer simplicity, rapid feature deployment. Verkada's 40% revenue growth rate and $5.8B valuation demonstrate that the market is rewarding cloud-native security at premium multiples. The Brivo/Eagle Eye merger consolidates two of IPS's key platform partners under one roof, creating potential for both partnership deepening and platform dependency risk.
 
 **Weaknesses:** Cannot address fire alarm or life-safety (code-mandated, requires licensed installers). Verkada's closed ecosystem limits interoperability. Limited to electronic security.
 
-**Note:** Brivo occupies a dual role — it is both IPS's most important complementor (platform partner) and a participant in this strategic group (sells through its own platform ecosystem).
+**Note:** Brivo occupies a dual role — it is both IPS's most important complementor (platform partner) and a participant in this strategic group (sells through its own platform ecosystem). The Dec 2025 merger with Eagle Eye Networks intensifies both roles — it strengthens the platform IPS can offer customers but also concentrates IPS's XaaS dependency on a single combined entity.
 
 ### Group 5: Converged Security/IT Providers
 
@@ -155,7 +156,7 @@ The industry in IPS's markets organizes into five strategic groups based on serv
     Cloud/Direct         |        PE-Backed National
     (Verkada)            |        (Convergint, Everon,
                          |         Pye-Barker, Pavion,
-    Group 5:             |         Sciens)
+    Group 5:             |         Summit, Sciens)
     Converged IT/Sec     |
     (Allied, Securitas)  |
                          |
@@ -185,13 +186,13 @@ The strategic group map (Section 2) organizes competitors by service breadth and
 
 ### Tier 1: The Model — Convergint ($2.7B, #1 SDM 8 consecutive years)
 
-Convergint is not a competitor. It is a model to follow. Convergint deliberately migrated to the top-right quadrant of the physical security map through managed services, SLA wraps, and strategic acquisitions. The company did not get to $2.7B by winning more bids — it got there by changing what it sells. Convergint's managed service platform, lifecycle agreements, and recurring revenue model are the blueprint for IPS's Q3-to-Q4 migration. IPS should study Convergint's public materials, service structure, and customer engagement model — not to replicate its scale (impossible without PE), but to replicate its positioning (achievable at any scale).
+Convergint is not a competitor. It is a model to follow. Convergint deliberately migrated to the top-right quadrant of the physical security map through managed services, SLA wraps, and strategic acquisitions. The company did not get to $2.7B by winning more bids — it got there by changing what it sells. PitchBook data confirms the scale of the machine behind this: $2.7B revenue (FY2024), up from $2.5B (FY2023) — 8% YoY growth; $3.0B+ total debt across 22 financing deals; 3 PE sponsors simultaneously (Ares continuation fund, Leonard Green majority, Harvest minority); 7 PE board seats out of 15; 20 known subsidiaries spanning the US, Australia, UAE, China, Romania, and Canada; and a Dec 2025 repricing at SOFR+375 cov-lite that signals strong institutional credit confidence. Convergint's managed service platform, lifecycle agreements, and recurring revenue model are the blueprint for IPS's Q3-to-Q4 migration. IPS should study Convergint's public materials, service structure, and customer engagement model — not to replicate its scale (impossible without PE), but to replicate its positioning (achievable at any scale).
 
 **Strategic implication:** Convergint demonstrates that the transition from transactional integration to managed security is not theoretical. It has been executed. IPS's version of this migration will be local, multi-discipline (fire + security), and owner-operated — advantages Convergint lost when it took PE money.
 
 ### Tier 2: Most Immediate Threat — Everon & Johnson Controls
 
-**Everon** is the most dangerous near-term competitor. GTCR-backed, $781.7M revenue, 5,000 employees, and **actively acquiring Midwest regional integrators**. Everon is not just present in IPS markets (Columbus, Louisville) — it is targeting the exact type of regional companies IPS competes against and with. Everon's acquisition strategy is deliberate: buy local integrators to gain customer bases and AHJ relationships, then layer national-scale managed services on top.
+**Everon** is the most dangerous near-term competitor. GTCR-backed, $781.7M revenue (FY2024), 5,000 employees, and **actively acquiring Midwest regional integrators** — 8 add-on acquisitions since the Oct 2023 LBO, funded by a $100M acquisition facility raised Feb 2025 specifically for deal-making. Everon is not just present in IPS markets (Columbus, Louisville) — it acquired Newtech Systems in Ashland, KY (Dec 2023), directly entering IPS geography. Everon's acquisition strategy is deliberate: buy local integrators to gain customer bases and AHJ relationships, then layer national-scale managed services on top. Recent strategic moves amplify the threat: an Alarm.com partnership for "Full Stack Security" (Dec 2025) and Active Video Monitoring Services launched Jan 2026 — both accelerating Everon's managed services capability.
 
 **Johnson Controls** is the most dangerous platform competitor. Proprietary technology platform. 250 cybersecurity engineers. National SOC. The combination of proprietary systems, cyber capability, and managed services creates a lock-in mechanism that IPS cannot currently match. JCI's approach is to deploy its own platforms (Tyco/JCI branded) on installation projects, then convert those installations into recurring managed service contracts where the customer is locked into a proprietary ecosystem.
 
@@ -241,24 +242,24 @@ The emerging threat. IT managed service providers are adding physical security t
 
 ## 3. Competitive Comparison Matrix
 
-| Dimension | **IPS** | **Silco** | **Paladin** | **Convergint** | **Pavion** | **Pye-Barker** | **Everon** |
-|-----------|---------|-----------|-------------|----------------|------------|----------------|------------|
-| **Ownership** | Independent | Independent | Independent | PE (Leonard Green/Ares) [102] | PE (Wind Point) [104] | PE (Leonard Green/ADIA/GIC) [103] | PE (GTCR) [106] |
-| **Scale** | Mid-size (~140 W-2, budgeting 152) | Mid-size (450) [105] | Small (60+) | Very Large (11,000) [102] | Large (~2,000+ parent) [104] | Very Large (8,000) [103] | Very Large (5,000) [106] |
-| **Revenue** | **$55M (2025); $64M (2026 budget)** | ~$60-80M est. [105] | N/A | $2.7B [102] | ~$625M (parent) [104] | $1.0B [103] | $781.7M [106] |
-| **Ohio** | Cincinnati, Columbus | 5 offices (Cincy, Dayton, Columbus, Akron, Cleveland) | Cleveland, Columbus (+expanding) | Cincinnati (2025) | Cincinnati | Cincy area, Dayton area | Columbus |
-| **Kentucky** | Lexington | Service area | — | — | — | Statewide (Modern Systems) | Louisville |
-| **Tennessee** | Nashville | — | — | Nashville (2025) | — | — | — |
-| **Fire Alarm** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| **Suppression** | Yes | Yes | Limited | Yes | Yes | Yes (core) | Yes |
-| **ERCES** | Yes | Not stated | Not stated | Yes | Not stated | Not stated | Yes |
-| **Access Control** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| **Video** | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| **Weapons Detection** | Yes | Not stated | Not stated | Yes | Not stated | Not stated | Not stated |
-| **XaaS/Cloud** | Yes (Brivo) | Limited | Yes (Brivo) | Yes | Yes | Limited data | Yes |
-| **NICET IV** | Yes | Not stated | Not stated | Likely | Likely | Not stated | Likely |
-| **National Accounts** | Yes | Limited | No | Yes | Yes | Yes | Yes |
-| **SDM Ranked** | No | No | No | #1 SI | #4 SI | #4 SDM 100 | #3 SDM 100 |
+| Dimension | **IPS** | **Silco** | **Paladin** | **Convergint** | **Pavion** | **Pye-Barker** | **Everon** | **Summit Fire & Security** |
+|-----------|---------|-----------|-------------|----------------|------------|----------------|------------|---------------------------|
+| **Ownership** | Independent | Independent | Independent | PE (Leonard Green/Ares/Harvest) [102] | PE (Wind Point) [104] | PE (Leonard Green/ADIA/GIC) [103] | PE (GTCR) [106] | PE-backed |
+| **Scale** | Mid-size (~140 W-2, budgeting 152) | Mid-size (450) [105] | Small (60+) | Very Large (11,000) [102] | Large (~2,000+ parent) [104] | Very Large (8,000) [103] | Very Large (5,000) [106] | Large (43 total deals, 11 TTM) |
+| **Revenue** | **$55M (2025); $64M (2026 budget)** | ~$60-80M est. [105] | N/A | $2.7B (FY2024, 8% YoY) [102] | ~$625M (parent) [104] | $1.0B [103]; $4.31B total raised | $781.7M (FY2024) [106] | N/A (#1 acquirer: 43 deals total, 14 in 2025) |
+| **Ohio** | Cincinnati, Columbus | 5 offices (Cincy, Dayton, Columbus, Akron, Cleveland) | Cleveland, Columbus (+expanding) | Cincinnati (2025) | Cincinnati | Cincy area, Dayton area | Columbus | West Chester Township OH, Ashland OH |
+| **Kentucky** | Lexington | Service area | — | — | — | Statewide (Modern Systems) | Louisville, Ashland KY | Not stated |
+| **Tennessee** | Nashville | — | — | Nashville (2025) | — | — | — | Not stated |
+| **Fire Alarm** | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes (core) |
+| **Suppression** | Yes | Yes | Limited | Yes | Yes | Yes (core) | Yes | Yes |
+| **ERCES** | Yes | Not stated | Not stated | Yes | Not stated | Not stated | Yes | Not stated |
+| **Access Control** | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| **Video** | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| **Weapons Detection** | Yes | Not stated | Not stated | Yes | Not stated | Not stated | Not stated | Not stated |
+| **XaaS/Cloud** | Yes (Brivo) | Limited | Yes (Brivo) | Yes | Yes | Limited data | Yes | Not stated |
+| **NICET IV** | Yes | Not stated | Not stated | Likely | Likely | Not stated | Likely | Not stated |
+| **National Accounts** | Yes | Limited | No | Yes | Yes | Yes | Yes | Yes (national platform) |
+| **SDM Ranked** | No | No | No | #1 SI | #4 SI | #4 SDM 100 | #3 SDM 100 | Not stated |
 
 ---
 
@@ -313,15 +314,15 @@ IPS's core markets are being systematically entered by PE-backed competitors thr
 
 | IPS Market | PE Competitor(s) Now Present | Entry Method |
 |------------|------------------------------|-------------|
-| **Cincinnati** | Convergint, Pavion, Pye-Barker | Convergint acquired Digital Visions (Jun 2025) [102]; Pavion sister company Turnkey Technology [104]; Pye-Barker acquired Shiver Security in Mason, OH [103] |
+| **Cincinnati** | Convergint, Pavion, Pye-Barker, **Summit Fire & Security** | Convergint acquired Digital Visions (Jun 2025) [102]; Pavion sister company Turnkey Technology [104]; Pye-Barker acquired Shiver Security in Mason, OH [103]; **Summit acquired Total Life Safety in West Chester Township OH (Aug 2025) and Alta Protection Services in Ashland OH (Mar 2025)** |
 | **Dayton** | Pye-Barker | Acquired A1 Sprinkler (Miamisburg) |
 | **Columbus** | Everon, Paladin (expanding) | Everon established office [106]; Paladin organic expansion |
-| **Kentucky** | Pye-Barker, Everon | Pye-Barker acquired Modern Systems (Somerset) and Care Security (Louisville) [103]; Everon office in Louisville [106] |
+| **Kentucky** | Pye-Barker, Everon | Pye-Barker acquired Modern Systems (Somerset) and Care Security (Louisville, Nov 2025) [103]; Everon office in Louisville [106]; **Everon acquired Newtech Systems in Ashland KY (Dec 2023)** |
 | **Nashville** | Convergint | Acquired Fiber Solutions (May 2025) [102] |
 
-**Every IPS market now has at least one PE-backed competitor present.** Cincinnati is the most contested, with four PE-backed competitors plus Silco. This encirclement is the central competitive reality IPS must address.
+**Every IPS market now has at least one PE-backed competitor present.** Cincinnati is the most contested, with **five PE-backed competitors** (Convergint, Pavion, Pye-Barker, Summit, plus Everon nearby) plus Silco. **Five PE-backed platforms now have physical presence in Cincinnati.** This encirclement is the central competitive reality IPS must address.
 
-*Sources: Convergint [70, 71, 72, 73, 102]; Pye-Barker [30, 31, 32, 103]; Pavion [29, 104]; Everon [33, 34, 35, 106]*
+*Sources: Convergint [70, 71, 72, 73, 102]; Pye-Barker [30, 31, 32, 103]; Pavion [29, 104]; Everon [33, 34, 35, 106]; Summit Fire & Security / SFP Holding PitchBook data (2019-2026); Scutum North America PitchBook data (2021-2024)*
 
 ---
 
@@ -333,9 +334,9 @@ PitchBook data provides the first comprehensive financial picture of IPS's PE-ba
 
 | Company | Valuation | Total Debt/Raised | Key Debt Facility | Spread | Undrawn Capacity |
 |---------|-----------|-------------------|-------------------|--------|-----------------|
-| Convergint | ~$5-7B est. EV | $2.70B | $2.40B TLB (1st Lien Senior) | SOFR+375 | Not disclosed |
-| Pye-Barker | **$6.10B** (Jan 2025) | $4.31B | $2.17B TLB + $355M Revolver + $325M DDTL | SOFR+250 | **$680M** |
-| Everon | $1.61B (Oct 2023) | $1.61B+ | $700M TL (1st Lien) + $100M Revolver + $100M DDTL | SOFR+625 | ~$100-200M |
+| Convergint | ~$5-7B est. EV | $3.0B+ across 22 financing deals | $2.40B TLB (1st Lien Senior); Dec 2025 repricing cov-lite | SOFR+375 (Dec 2025 repricing — institutional credit confidence) | Not disclosed |
+| Pye-Barker | **$6.10B** (Jan 2025; ADIA + GIC sovereign wealth) | **$4.31B** total raised | $2.17B TLB + $355M Revolver + $325M DDTL | **SOFR+250** (compressed from SOFR+550 — near investment-grade) | **$680M** |
+| Everon | $1.61B (Oct 2023) | $1.61B+ | $700M TL (1st Lien) + $100M Revolver + **$100M acquisition facility (Feb 2025)** | SOFR+625 | ~$100-200M + $100M acquisition facility |
 | Pavion | Not disclosed | Not fully disclosed | Blackstone-financed facilities | N/A | Significant |
 
 ### Leonard Green & Partners: Dual Platform Control
@@ -348,23 +349,60 @@ The January 2025 Pye-Barker recapitalization at $6.1 billion brought Abu Dhabi I
 
 *Sources: PitchBook [102, 103, 106, 107, 108, 109, 110, 111, 112]*
 
+### Total Capital Deployed Against Independent Integrators
+
+PitchBook data reveals the aggregate scale of PE capital now deployed in fire and security integration — capital that is actively competing with independents like IPS for acquisitions, talent, and customers.
+
+| Metric | Value |
+|--------|-------|
+| **Combined PE platform debt (disclosed)** | **$9.24B+** (Convergint $3.0B + Pye-Barker $4.31B + Everon $1.61B + Pavion/Blackstone undisclosed) |
+| **Combined estimated enterprise value** | **$15-20B+** across major fire/security PE platforms |
+| **Combined annual M&A budgets** | **$1.0-1.8B/year** in estimated acquisition spend across platforms |
+| **Undrawn acquisition facilities** | **$1.0-1.3B** ready to deploy immediately (Pye-Barker $680M + Everon $100-200M + Convergint undisclosed + Pavion/Blackstone undisclosed) |
+
+This is not theoretical capital. These are committed, undrawn credit facilities designed specifically for acquisitions. When a $15M independent integrator comes to market in Ohio or Kentucky, the buyer is not another independent — it is one of these platforms, deploying capital from a pre-arranged acquisition facility within weeks. IPS's competitive landscape is not five separate competitors with five separate budgets. It is $9.24B+ in coordinated PE capital pursuing the same acquisition targets, the same talent, and the same customers in the same markets.
+
+### Geographic Encirclement — OH/KY/TN Deal Velocity
+
+PitchBook M&A transaction data reveals the pace at which PE-backed platforms are acquiring fire and security companies in IPS's tri-state geography.
+
+| Metric | Value |
+|--------|-------|
+| **Total fire/security M&A deals in OH/KY/TN (3 years)** | **17 deals** |
+| **Deal pace by year** | **3 (2023) → 5 (2024) → 9 (2025)** — tripled in two years |
+| **PE-backed platforms with physical presence in Cincinnati** | **5** (Convergint, Pavion, Pye-Barker, Summit, Everon nearby) |
+
+The deal pace tripling from 3 to 9 annual transactions means the acquisition window for independent integrators in IPS's geography is closing rapidly. At current pace, most remaining independents above $5M in revenue in the OH/KY/TN corridor will receive PE acquisition offers within 24-36 months. For IPS, this means: (1) potential acquisition targets for IPS's own growth are being taken off the market before IPS can act; (2) PE-backed competitors are gaining local presence, local talent, and local customer bases with every acquisition; and (3) the pool of independent integrators IPS can partner with, refer to, or recruit from is shrinking. The geographic encirclement is not static — it is accelerating.
+
+### Technology Disruption — Cloud-Native Platforms
+
+Beyond PE-backed roll-ups, two technology developments represent structural shifts in how physical security is sold, deployed, and managed.
+
+**Verkada ($700M revenue, 40% growth, $5.8B valuation).** Verkada's cloud-native platform — encompassing video, access control, environmental sensors, and workplace management — has reached a scale where it is no longer a niche disruptor. At $700M in revenue growing 40% annually, Verkada will surpass $1B within 18 months. The Feb 2026 launch of AI-Powered Deterrence — which uses on-camera AI to detect threats and trigger automated deterrence actions — represents the next evolution: security systems that act autonomously rather than simply recording events for human review. Verkada's direct-to-customer model bypasses traditional integrators entirely for video and access control. IPS's fire/life-safety capability remains the structural barrier Verkada cannot cross, but the security-only portion of IPS's revenue is increasingly competing against a platform that offers lower deployment friction, built-in cloud management, and AI capabilities IPS cannot currently match.
+
+**Brivo + Eagle Eye Networks merger (Dec 2025).** The merger of Brivo ($141M revenue, 73,000+ locations, leading cloud access control) with Eagle Eye Networks (valued at $1.6B separately, leading cloud video management) creates the largest independent cloud physical security platform. The combined entity offers unified cloud access control + cloud video surveillance + AI analytics through a single platform — a complete alternative to traditional on-premise VMS and access control systems. For IPS, this is both opportunity and risk: the combined platform strengthens IPS's XaaS offering to customers, but it also concentrates IPS's cloud platform dependency on a single merged entity. If the combined Brivo/Eagle Eye platform shifts strategy toward direct sales or favors larger channel partners, IPS's XaaS competitive positioning could be compromised.
+
+*Sources: PitchBook fire/security M&A dataset (2023-2025); Verkada press releases (Feb 2026); Brivo/Eagle Eye merger announcement (Dec 2025); Alarm.com/Everon partnership announcement (Dec 2025)*
+
 ---
 
 ## 5. Head-to-Head Threat Assessment
 
 | Competitor | Threat Level | Primary Threat Vector | IPS Defense |
 |------------|-------------|----------------------|-------------|
-| **Everon** | **CRITICAL** | $781.7M revenue; 5,000 employees; GTCR-backed; **actively acquiring Midwest regional integrators**; Columbus and Louisville presence; prices competitively on install then locks clients into managed service contracts; 8 acquisitions since Oct 2023 LBO; acquired ADT multifamily business ($55M) [106, 109] | Pre-design advisory to own the spec before Everon bids; IPS lifecycle agreements to lock in customers before Everon reaches them; fire-first bundling (Everon weaker in fire/life-safety) |
+| **Everon** | **CRITICAL** | $781.7M revenue (FY2024); 5,000 employees; GTCR-backed; **actively acquiring Midwest regional integrators**; Columbus, Louisville, and **Ashland KY** (Newtech Systems, Dec 2023) presence; $100M acquisition facility raised Feb 2025; 8 add-on acquisitions since Oct 2023 LBO; acquired ADT multifamily business ($55M); Alarm.com "Full Stack Security" partnership (Dec 2025); Active Video Monitoring Services launched Jan 2026 [106, 109] | Pre-design advisory to own the spec before Everon bids; IPS lifecycle agreements to lock in customers before Everon reaches them; fire-first bundling (Everon weaker in fire/life-safety) |
 | **Johnson Controls** | **CRITICAL** | Proprietary platform; **250 cybersecurity engineers**; national SOC; combines national resources with local presence; prices install competitively then locks into proprietary managed platform; enterprise trust and Fortune 500 relationships | Vendor-agnostic advantage (IPS offers choice, JCI locks in); local responsiveness vs. corporate bureaucracy; IPS's multi-discipline fire+security bundle vs. JCI's technology-centric approach |
-| **Convergint** | HIGH | $2.7B revenue; 11,000 employees; Leonard Green/Ares-backed; entered Cincinnati (Digital Visions) AND Nashville (Fiber Solutions) in 2025; $2.70B debt capacity; 22 recorded deals; **the model for Q3-to-Q4 migration** [102, 107] | Service quality, local relationships, NICET IV, fire + security bundling; learn from Convergint's model while competing against its execution |
-| **Pye-Barker** | HIGH | $6.1B valuation; $1.0B revenue; 8,000 employees; 57 acquisitions in 2025; $680M undrawn capacity; 3 acquisitions in OH/KY (Shiver Security Mason OH, Modern Systems Somerset KY, Care Security Louisville KY); sovereign wealth fund backing [103, 108, 110] | Service differentiation; Pye-Barker faces integration challenges at 57-deal pace |
+| **Convergint** | HIGH | $2.7B revenue (FY2024, 8% YoY); 11,000 employees; 3 PE sponsors simultaneously (Leonard Green/Ares/Harvest); 7 PE board seats out of 15; entered Cincinnati (Digital Visions) AND Nashville (Fiber Solutions) in 2025; $3.0B+ total debt across 22 financing deals; Dec 2025 repricing at SOFR+375 cov-lite; 20 known subsidiaries across 6 countries; **the model for Q3-to-Q4 migration** [102, 107] | Service quality, local relationships, NICET IV, fire + security bundling; learn from Convergint's model while competing against its execution |
+| **Pye-Barker** | HIGH | $6.1B valuation; $1.0B revenue; 8,000 employees; **$4.31B total raised**; debt spread compressed SOFR+550→SOFR+250 (near investment-grade); 54 known subsidiaries across virtually every US state; **5 dedicated M&A executives on payroll**; 57 acquisitions in 2025; $680M undrawn capacity; OH/KY/IN acquisitions include Shiver Security (Mason OH), Modern Systems (Somerset KY), Care Security (Louisville KY, Nov 2025), HT Systems (Greenwood IN, Nov 2025); sovereign wealth backing: **ADIA (Abu Dhabi) + GIC (Singapore)** invested at $6.1B valuation Jan 2025; Altas Partners exited at 25% IRR in 3.5 years [103, 108, 110] | Service differentiation; Pye-Barker faces integration challenges at 57-deal pace but financial trajectory (debt compression, sovereign backing) signals institutional confidence in long-term platform |
+| **Summit Fire & Security** | **CRITICAL** | **#1 acquirer in PitchBook fire/security dataset: 43 total deals, 11 in trailing twelve months, accelerating from ~5/year to 14 in 2025 and 3 already in Jan-Feb 2026**; parent SFP Holding (Mendota Heights, MN, founded 1999); 12 M&A professionals led by CEO Jeff Evrard (20 deals); Jeremiah Hazzard (7 deals); multiple VPs of Business Development; "Actively Seeking New Investments" with preference for majority stake; **sister company Protegis Fire & Security in Louisville, KY (founded 1985) — direct IPS geography overlap**; subsidiary Total Life Safety in West Chester Township OH — IPS home metro; Alta Protection Services in Ashland OH (Mar 2025); full national subsidiary network: IFS Fire & Safety (TX), Performance Systems Integration (OR), FoosFire (NY), Fire Alarm Specialty Design (CT), Fire Safety Sales (NM), Gordon Fire Equipment (NY); sister companies: Badger Fire (WI), Bay Line Fire (MI), Byrd's Fire (UT), A-1 National Fire (NV), Alliance Fire (AZ), Performance Based Fire Protection Engineering (NC), General Fire & Safety (NE); CI Capital Partners co-invested on early deals (2019-2020) | Fire-first bundling and local relationship depth remain primary defenses, but Summit's 43-deal track record, dedicated M&A team, and Louisville sister company (Protegis, founded 1985) make this the most aggressive fire/security roll-up in the country; the acceleration from ~5 deals/year to 14 in 2025 indicates Summit is entering a new phase of deal velocity; IPS must assume Summit will continue acquiring in the OH/KY corridor |
 | **Silco** | MODERATE-HIGH | 450 employees; ~$60-80M est. revenue; Inc. 5000 recognition; largest direct overlap (Cincinnati HQ, Dayton); strong Ohio reputation; independent like IPS; **competes effectively when fire+security bundled** [105] | XaaS/cloud advantage; Nashville and Kentucky markets where Silco is absent; broader security vendor lineup; NICET IV depth; outflank on geography, not out-Ohio on density |
 | **Aegis** | MODERATE (partnership candidate) | Cincinnati-based hybrid; near-100% client retention; leads with guarding, adds systems | **Not a direct competitor** — different primary service. Potential partnership candidate for referral/co-marketing. Aegis's guarding customers need fire+security integration IPS provides. |
 | **Securitas** | MODERATE | $15.3B global revenue; pivoting toward technology/data-led model; Tech HQ in Uniontown OH; bundling argument with enterprise customers | Fire/life-safety moat — Securitas cannot cross without acquisition; prevent unbundling of fire from security at customer level |
 | **Paladin** | LOW-MODERATE | Expanding into Cincinnati/Dayton from Cleveland; also a Brivo partner | Smaller scale; lacks suppression and ERCES depth |
-| **Verkada** | LOW-MODERATE | Direct-sales model bypasses integrator channel for video and access control | Cannot address fire/life-safety; IPS counters by bundling |
+| **Verkada** | **MODERATE** (upgraded) | $700M revenue, 40% growth, $5.8B valuation; AI-Powered Deterrence launched Feb 2026; cloud-native platform that bypasses traditional integrators; direct-sales model increasingly targeting enterprise accounts | Cannot address fire/life-safety; IPS counters by bundling; but Verkada's growth rate and AI capabilities are compressing the security-only segment faster than expected |
 | **Vitis Technologies** | MODERATE (emerging) | IT/cyber + physical security; Blue Ash OH (Cincinnati metro); sells to IT decision makers IPS does not reach; service sophistication score 3.0 vs. IPS 2.25 | Fire/life-safety moat; partner with or acquire cyber capability; position IPS as the one integrator that also does fire — no MSP can |
 | **Commodity installers** | LOW (margin threat) | Midwest Security, Royce, HSI, Executive Security, Sec-Tron — compress margins on lower-end bids | Stop competing at this level; redirect resources to managed engagements |
+| **Scutum North America** | **MODERATE** (international PE entrant) | Parent: Scutum International (London, UK, founded 1989) — first international PE-backed fire/security platform entering U.S.; founded 2021, HQ: 90 Broad Street, New York, NY; fire detection/alarm/life safety, CCTV, access control, intruder detection, ERCES, remote monitoring, smart AV; 5 U.S. investments: Forest Security (River Grove IL, 2023), Thompson Electronics (Peoria IL, 2023), Affordable Alarm (Naples FL, 2024), Visentry (Englewood NJ, 2024), Statewide Central Station (2021); "Actively Seeking New Investments" — prefers majority stake; sister companies across France, Spain, UK, Germany | Not yet in OH/KY/TN but represents a new threat vector: international PE entering the U.S. fire/security market; Scutum's European operational scale and IL acquisitions suggest Midwest expansion is plausible; monitor for OH/KY/TN market entry |
 | **Sciens** | LOW (for now) | Carlyle Group backing; expanding eastward; not yet in OH/KY/TN | Monitor for market entry |
 
 ---
@@ -403,7 +441,7 @@ The January 2025 Pye-Barker recapitalization at $6.1 billion brought Abu Dhabi I
 | **Geographic limitations** | MODERATE | 4 brick-and-mortar offices + national accounts vs. Convergint's 220+; limits competitiveness for large national accounts; Atlanta expansion is next but not yet operational |
 | **Edwards/Kidde ownership change** | MODERATE-HIGH | Carrier sold Edwards to Lone Star Funds for $3B (Dec 2024); now Kidde Global Solutions. Under new PE ownership, Edwards is adding distributor partners in IPS territories, weakening exclusivity. Also: Honeywell acquired LenelS2/Onity/Supra from Carrier for $4.95B — both of IPS's major OEM relationships changed ownership within months. Pete Keller: "not as strong a partnership as it used to be" |
 | **Distributor disintermediation** | MODERATE | Anixter/Wesco (major distributor) trying to work directly with end users then bring IPS in as sub — described as "messy." Verkada ($4.5B valuation) goes direct to end users and "plays both sides" — IPS does NOT sell Verkada. Most manufacturers that tried going direct eventually pulled back, but risk persists |
-| **Brivo platform dependency** | MODERATE | Post-merger with Eagle Eye, single vendor for XaaS offerings; IPS does carry alternative platforms (Genetec, LenelS2, Milestone) per service flyer, partially mitigating this risk |
+| **Brivo platform dependency** | MODERATE-HIGH (upgraded) | Post-merger with Eagle Eye (Dec 2025), single combined entity for IPS's cloud access + cloud video XaaS offerings; Brivo revenue $141M, Eagle Eye valued at $1.6B separately — the merged platform is now a major independent cloud security player; IPS does carry alternative platforms (Genetec, LenelS2, Milestone) per service flyer, partially mitigating this risk, but concentration has increased |
 
 ---
 
@@ -447,7 +485,7 @@ IPS needs to simultaneously:
 
 ---
 
-*Sources: IPS leadership meeting (March 20, 2026); IPS VTO (printed March 20, 2026); IPS Service Flyer (McHugh, 2024); PitchBook [102-112]; Strategic groups — Converged Physical Security analysis (2026); industry competitor research OH_KY_IN data (2026); full bibliography in `research/sources.md` [Sources 1–112]*
+*Sources: IPS leadership meeting (March 20, 2026); IPS VTO (printed March 20, 2026); IPS Service Flyer (McHugh, 2024); PitchBook [102-112]; PitchBook fire/security M&A dataset (2023-2025); PitchBook Summit Fire & Security / SFP Holding company profile (April 2026); PitchBook Scutum North America company profile (April 2026); PitchBook APi Group company profile (April 2026); Strategic groups — Converged Physical Security analysis (2026); industry competitor research OH_KY_IN data (2026); Verkada press releases (Feb 2026); Brivo/Eagle Eye merger announcement (Dec 2025); Alarm.com/Everon partnership (Dec 2025); full bibliography in `research/sources.md` [Sources 1–112]*
 
 ---
 

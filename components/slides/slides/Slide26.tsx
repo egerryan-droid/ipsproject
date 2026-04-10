@@ -98,12 +98,14 @@ export function Slide26() {
               Acquired Chubb Fire &amp; Security for $3.1B &mdash; converted from EC to world&apos;s largest life safety provider
             </p>
             <p className="text-[0.7vw] text-[#d1d5db] mt-[1%] leading-relaxed">
-              Now $7.9B revenue. Every $1 of inspection generates $3&ndash;4 in annual service revenue. The thesis works.
+              Now $7.911B revenue &middot; $21.25B EV &middot; 16.80x EV/EBITDA &middot; $1.265B EBITDA &middot; 29,000 employees &middot; SOFR+175 (tightest spread in industry).
+              Every $1 of inspection generates $3&ndash;4 in annual service revenue. The thesis works.
             </p>
           </div>
           <div className="flex-shrink-0 ml-[3%] flex flex-col items-center">
-            <p className="text-[2.8vw] font-extrabold leading-none" style={{ color: '#34d399' }}>$7.9B</p>
+            <p className="text-[2.8vw] font-extrabold leading-none" style={{ color: '#34d399' }}>$7.911B</p>
             <p className="text-[0.6vw] text-[#9ca3af] mt-[2%]">APi Group revenue</p>
+            <p className="text-[0.5vw] text-[#9ca3af] mt-[1%]">Mkt Cap $19.09B (+95.92% YoY)</p>
           </div>
         </div>
 

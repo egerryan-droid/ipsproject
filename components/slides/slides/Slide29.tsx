@@ -100,13 +100,24 @@ const peRows = [
     integration: 'Expanding into Tennessee',
     highlight: false,
   },
+  {
+    firm: 'APi Group',
+    firmSub: '$7.76B raised',
+    fire: { text: 'Chubb $7.911B', color: '#C8202D' },
+    security: { text: 'Chubb Security', color: '#C8202D' },
+    ec: { text: 'Legacy EC', color: '#d97706' },
+    cloud: { text: 'No', color: '#9ca3af' },
+    scale: '$21.25B EV',
+    integration: '16.80x EV/EBITDA. All State Fire & Security subsidiary in Harrison, OH (Cincinnati metro)',
+    highlight: false,
+  },
 ]
 
 const colHeaders = ['PE FIRM', 'FIRE', 'SECURITY', 'EC', 'CLOUD', 'SCALE', 'INTEGRATION STATUS']
 
 export function Slide29() {
   return (
-    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="Updated PE Capital Map: $12B+ Across All Three Fronts" speaker="Ryan Eger">
+    <SlideLayout actNumber={2} actLabel="ACT 2: THE INDUSTRY IS CONVERGING" title="Updated PE Capital Map: $33B+ Across All Three Fronts" speaker="Ryan Eger">
       <div className="h-full flex flex-col overflow-hidden">
         <table className="w-full border-collapse" style={{ tableLayout: 'fixed' }}>
           <colgroup>
@@ -187,7 +198,7 @@ export function Slide29() {
             <span className="font-bold flex-shrink-0" style={{ fontSize: '0.75vw', color: '#C8202D' }}>KEY INSIGHT:</span>
             <span style={{ fontSize: '0.75vw', color: '#1a1a1f' }}>
               Leonard Green controls BOTH the #1 fire platform (Pye-Barker) and #1 security platform (Convergint) &mdash; $3.7B under one PE firm.
-              Adding EC platforms, total PE capital pointed at this converged market now exceeds $12B. IPS is surrounded.
+              APi Group alone carries $21.25B EV at 16.80x EV/EBITDA ($7.76B total raised). Total PE capital pointed at this converged market now exceeds $33B. IPS is surrounded.
             </span>
           </div>
         </div>

@@ -108,6 +108,28 @@ Structural labor cost advantage: IPS's labor cost is only 10% of project cost ve
 | Service (break-fix) | ~45-50% | $7.5M | 14.0% |
 | Recurring (contracts) | ~50-60% | $3.1M | 5.8% |
 
+#### Industry Benchmark: Fire & Life Safety Margin Structure
+
+Industry data confirms that IPS's margin structure is not an anomaly --- it reflects the structural economics of fire and life safety work. The margin hierarchy is driven by code compliance requirements (NFPA 72, local AHJ mandates) that create non-discretionary demand for recurring services, while systems installation provides large-ticket access to follow-on service revenue.
+
+| Job Type | Category | Ticket Value | Recurring? | Industry Gross Margin |
+|----------|----------|-------------|-----------|----------------------|
+| Test & Inspection | Recurring Service | $500-$5K | Monthly-Annually | 50%+ |
+| Monitoring | Recurring Service | $100-$1K+ | Monthly-Annually | 50%+ |
+| Repair & Maintenance | Reoccurring Service | $1K-$10K+ | Reoccurring | 40-50% |
+| Retrofit | Install | $10K-$100K+ | Can be recurring | 35-45%+ |
+| New Construction Install | Install | $10K-$100K+ | One-time | 25-35% |
+
+**IPS vs. industry benchmark:**
+
+| Revenue Type | IPS Margin | Industry Benchmark | IPS 2025 Revenue | Assessment |
+|-------------|-----------|-------------------|-----------------|------------|
+| Installation/Project | ~20-25% | 25-35% (new construction) | $42.2M (78.5%) | **Below benchmark** --- EC channel compression drags margin below industry floor |
+| Service (break-fix) | ~45-50% | 40-50% (repair/maintenance) | $7.5M (14.0%) | **At benchmark** --- validates IPS service capability |
+| Recurring (contracts) | ~50-60% | 50%+ (test & inspect, monitoring) | $3.1M (5.8%) | **At or above benchmark** --- but base is critically small |
+
+The structural insight: IPS's project install margins (20-25%) run below the industry floor (25-35%) because the EC subcontractor channel compresses pricing --- the EC takes a coordination margin before IPS sees the project. IPS's service and recurring margins (45-60%) meet or exceed industry benchmarks, confirming that IPS creates full market-rate value on work it controls directly. The margin gap between project and service work is not an IPS-specific problem --- it is the structural economics of fire and life safety. But IPS's revenue mix (78.5% project vs. 5.8% recurring) inverts the industry's margin advantage. PE-backed platforms solve this inversion by driving recurring revenue to 25%+ of total revenue, capturing the high-margin work at scale. IPS's path to margin expansion runs directly through this revenue mix shift.
+
 #### Key Operational Findings
 
 - **Fire is the growth engine but carries EC channel dependency.** 85% of fire revenue flows through ECs in 2025 (up from 69% in 2023). Growth accelerates through the lowest-margin channel.
@@ -262,7 +284,7 @@ At 50% margin: approximately $1.3M/year in GP left on the table.
 
 | Point | Mechanism | Est. Annual Impact |
 |-------|-----------|-------------------|
-| EC channel (34-43%) | Compression, no end-user, zero RMR | ~$3.5M margin gap |
+| EC channel (34-43%) | Compression below 25-35% industry floor; no end-user capture; zero RMR | ~$3.5M margin gap |
 | Post-install handoff | Services left on table | $2.6M/yr CLV gap |
 | Credit card purchasing | Non-negotiated prices | ~$200K/yr |
 | 122-day DSO | $18M in interest-free financing | ~$900K/yr |
@@ -325,3 +347,4 @@ At 50% margin: approximately $1.3M/year in GP left on the table.
 9. Porter, M.E. (1985). *Competitive Advantage*. Free Press.
 10. SDM Magazine Top 100 Integrators Report, 2025
 11. PitchBook PE Deal Data, 2023-2026
+12. Fire & Life Safety Industry Margin Structure Analysis (PitchBook/industry data, April 2026): job type margin benchmarks for test & inspection, monitoring, repair & maintenance, retrofit, and new construction install
