@@ -28,24 +28,26 @@ export default function ExternalSummaryPage() {
           {/* Thesis */}
           <div className="border-l-4 border-[#1B3A6B] bg-gray-50 rounded-r-lg px-5 py-4 mb-10">
             <p className="text-xs font-bold text-[#1B3A6B] uppercase tracking-widest mb-1">
-              One-Sentence Thesis
+              Core Finding
             </p>
             <p className="text-[#1a1a1f] leading-relaxed">
-              The fire and security industry is converging with IT, cybersecurity, and building
-              automation into a single building intelligence industry. PE firms are assembling the
-              pieces, and IPS has a 3&ndash;5 year window to position as the independent alternative.
+              The fire and security industry is undergoing a one-time structural reorganization from
+              fragmented, project-based contracting to consolidated, recurring-revenue platforms. PE
+              capital is the accelerant, technology convergence is the mechanism, and code-mandated
+              demand is the floor that makes the whole thing investable. IPS is excellent at the old
+              game. The industry is reorganizing around a new one.
             </p>
           </div>
 
           {/* Key Numbers */}
           <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mb-10">
             {[
-              { val: '$256B+', label: 'Addressable market' },
-              { val: '$9.6B', label: 'PE debt deployed' },
-              { val: '16–18%', label: 'Cloud/XaaS CAGR' },
-              { val: '7.5%', label: 'Fire systems CAGR' },
-              { val: '7–10%', label: 'IPS RMR gap' },
-              { val: '3–5 yr', label: 'Window to act' },
+              { val: '$256B+', label: 'Combined U.S. market' },
+              { val: '$33B+', label: 'PE enterprise value deployed' },
+              { val: '261', label: 'M&A deals in 3 years' },
+              { val: '6', label: 'PE platforms in Cincinnati' },
+              { val: '5.8%', label: 'IPS recurring revenue' },
+              { val: '$35-59M', label: 'Value of the RMR gap' },
             ].map((s) => (
               <div key={s.val} className="bg-gray-50 rounded-lg p-3 text-center">
                 <p className="text-lg font-extrabold text-[#1B3A6B]">{s.val}</p>
@@ -54,211 +56,425 @@ export default function ExternalSummaryPage() {
             ))}
           </div>
 
-          {/* Section 1 */}
+          {/* === SECTION 1: THE INDUSTRY === */}
           <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
             <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">1</span>
-            The Industry Landscape
+            What Is the Industry
           </h2>
           <p className="text-[#1a1a1f] leading-relaxed mb-3">
-            IPS operates at the intersection of two NAICS codes: <strong>238210</strong> (Electrical
-            Contractors, $223.6B) and <strong>561621</strong> (Security Systems, $33.2B). The combined
-            addressable market exceeds $256 billion. With 6,136 security firms nationally averaging
-            $4.79M in revenue, IPS at $55M is firmly top tier &mdash; yet represents less than 0.02% of
-            total addressable market. Fire protection is code-mandated and non-discretionary. Electronic
-            security is shifting rapidly toward subscription-based cloud delivery.
+            IPS operates at the intersection of fire protection ($88.9B global, 6.6% CAGR) and physical
+            security ($147.4B global, 6.5% CAGR) &mdash; a combined U.S. addressable market exceeding $256 billion.
           </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+              <p className="text-xs font-bold text-[#C8202D] uppercase tracking-wide mb-2">Fire Protection Model</p>
+              <p className="text-sm text-[#1a1a1f] leading-relaxed mb-2">
+                GC &rarr; EC &rarr; Specialty Integrator (IPS). Code-mandated by NFPA 72. No fire alarm = no
+                occupancy permit. Proprietary panel ecosystems (Edwards, Notifier, Simplex) create deep switching
+                costs. ~50% of IPS revenue flows through the EC channel.
+              </p>
+              <div className="flex gap-4 mt-2">
+                <div><p className="text-lg font-extrabold text-[#C8202D]">~20%</p><p className="text-[10px] text-gray-500">Project GM</p></div>
+                <div><p className="text-lg font-extrabold text-[#C8202D]">~50%</p><p className="text-[10px] text-gray-500">Service GM</p></div>
+              </div>
+            </div>
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+              <p className="text-xs font-bold text-[#2563eb] uppercase tracking-wide mb-2">Security Model</p>
+              <p className="text-sm text-[#1a1a1f] leading-relaxed mb-2">
+                Direct to end user. Lower regulatory barriers (no statewide OH license). Shifting from CapEx
+                ($5K/door) to subscription ($30-50/door/month). Cloud platforms (Brivo, Eagle Eye) making basic
+                systems accessible to less sophisticated installers. ~50% of IPS revenue.
+              </p>
+              <div className="flex gap-4 mt-2">
+                <div><p className="text-lg font-extrabold text-[#2563eb]">16-18%</p><p className="text-[10px] text-gray-500">Cloud/XaaS CAGR</p></div>
+                <div><p className="text-lg font-extrabold text-[#2563eb]">82%</p><p className="text-[10px] text-gray-500">Planning cloud transitions</p></div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-4 mb-6">
+            <p className="text-xs font-bold text-[#1B3A6B] uppercase tracking-wide mb-2">The Margin Structure</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs border-collapse">
+                <thead>
+                  <tr className="border-b border-gray-200">
+                    <th className="text-left p-2 font-bold text-gray-600">Revenue Type</th>
+                    <th className="text-left p-2 font-bold text-gray-600">Gross Margin</th>
+                    <th className="text-left p-2 font-bold text-gray-600">Character</th>
+                    <th className="text-left p-2 font-bold text-gray-600">IPS Mix</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Test & Inspection', '50%+', 'Recurring (code-mandated)', ''],
+                    ['Monitoring', '50%+', 'Recurring (monthly)', ''],
+                    ['Repair & Maintenance', '40-50%', 'Reoccurring', '5.8% total'],
+                    ['Retrofit', '35-45%+', 'Can be recurring', ''],
+                    ['New Construction Install', '25-35%', 'One-time project', '78.5%'],
+                  ].map((row, i) => (
+                    <tr key={i} className={i % 2 === 1 ? 'bg-white' : ''}>
+                      {row.map((cell, j) => (
+                        <td key={j} className={`p-2 border-b border-gray-100 ${j === 3 && cell ? 'font-bold text-[#C8202D]' : ''}`}>
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-[10px] text-gray-500 mt-2">IPS is 78.5% in the 25-35% row and 5.8% in the 50%+ rows. The industry is moving in the opposite direction.</p>
+          </div>
 
-          {/* Section 2 */}
+          {/* === SECTION 2: INDUSTRY NUMBERS === */}
           <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
             <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">2</span>
-            Macro Environment (PESTEL)
+            Industry Numbers &amp; Growth Drivers
           </h2>
-          <p className="text-[#1a1a1f] leading-relaxed mb-3">
-            Thirteen of seventeen macro trends are favorable. The demand environment is overwhelmingly
-            positive. The constraint is labor.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-3">
-              <p className="text-xs font-bold text-green-800 uppercase tracking-wide mb-1">Tailwinds</p>
-              <ul className="text-sm text-[#1a1a1f] space-y-1 list-disc list-inside">
-                <li>$1B+ in federal security grants (DHS/FEMA HSGP)</li>
-                <li>Columbus: 77 data centers by 2030, 2.4 GW planned</li>
-                <li>Cloud migration: ACaaS at 17.9% CAGR, VSaaS at 16.1%</li>
-                <li>NFPA 72 (2025) mandates cybersecurity for fire systems</li>
-                <li>Climate resilience driving fire/safety demand</li>
-              </ul>
-            </div>
-            <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">
-              <p className="text-xs font-bold text-amber-800 uppercase tracking-wide mb-1">Headwind</p>
-              <ul className="text-sm text-[#1a1a1f] space-y-1 list-disc list-inside">
-                <li>29% of fire workforce retiring by 2026</li>
-                <li>No industry apprenticeship program exists</li>
-                <li>50% of firms cite hiring difficulty &mdash; caps growth for everyone</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Section 3 */}
-          <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
-            <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">3</span>
-            The Industry Is Converging
-          </h2>
-          <p className="text-[#1a1a1f] leading-relaxed mb-3">
-            Fire protection ($33.2B) and electronic security ($33.2B+) are merging into a single
-            &ldquo;building intelligence&rdquo; market. NFPA 72 (2025) codifies this by mandating
-            cybersecurity for networked fire systems. 71% of organizations already operate converged
-            platforms. Cloud/XaaS grows at 16&ndash;18% CAGR while the base market grows at 4%.
-          </p>
-          <div className="bg-gray-50 rounded-lg p-4 mb-3">
-            <p className="text-xs font-bold text-[#1B3A6B] uppercase tracking-wide mb-2">Three Convergence Waves</p>
-            <div className="grid grid-cols-3 gap-3">
-              <div>
-                <p className="text-sm font-bold text-[#1B3A6B]">Wave 1: 2024&ndash;26</p>
-                <p className="text-xs text-gray-600">Security + IT/Cyber</p>
-                <p className="text-[10px] text-[#C8202D] font-bold mt-1">HAPPENING NOW</p>
-              </div>
-              <div>
-                <p className="text-sm font-bold text-amber-600">Wave 2: 2026&ndash;28</p>
-                <p className="text-xs text-gray-600">Security + Building Automation</p>
-                <p className="text-[10px] text-[#C8202D] font-bold mt-1">COMING SOON</p>
-              </div>
-              <div>
-                <p className="text-sm font-bold text-gray-700">Wave 3: 2028&ndash;34</p>
-                <p className="text-xs text-gray-600">Fire + Everything Else</p>
-                <p className="text-[10px] text-gray-500 font-bold mt-1">SLOW BUT CERTAIN</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Section 4 */}
-          <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
-            <span className="bg-[#C8202D] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">4</span>
-            $9.6 Billion Is Pointed at Your Market
-          </h2>
-          <p className="text-[#1a1a1f] leading-relaxed mb-3">
-            PE firms are systematically assembling every layer of building intelligence. Combined
-            PE platform debt exceeds $9.6B. Pye-Barker alone has $680M in undrawn capacity. One PE
-            firm (Leonard Green) controls $3.7B in combined fire and security revenue via Convergint
-            and Pye-Barker.
-          </p>
-          <div className="overflow-x-auto mb-3">
-            <table className="w-full text-xs border-collapse">
-              <thead>
-                <tr className="bg-[#1B3A6B] text-white">
-                  <th className="text-left p-2">PE Firm</th>
-                  <th className="text-left p-2">Fire</th>
-                  <th className="text-left p-2">Security</th>
-                  <th className="text-left p-2">Scale</th>
-                  <th className="text-left p-2">Significance</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[
-                  ['Leonard Green', 'Pye-Barker $1B', 'Convergint $2.7B', '$3.7B', 'Controls #1 AND #2 PE platforms'],
-                  ['Lone Star', 'Kidde/Edwards $3B', '—', '$3B OEM', "Controls IPS's primary fire supplier"],
-                  ['GTCR', '—', 'Everon $782M', '$782M+', 'Columbus + Louisville overlap'],
-                  ['Honeywell', '—', 'LenelS2 $4.95B', '$4.95B+', 'Full stack: fire + security + BA'],
-                  ['Wind Point', 'Via Pavion', 'Pavion $625M', '$625M+', '15+ sister companies'],
-                  ['Carlyle', 'Sciens $390M+', 'YES', '$390M+', 'Expanding east into IPS markets'],
-                ].map((row, i) => (
-                  <tr key={i} className={i % 2 === 1 ? 'bg-gray-50' : ''}>
-                    {row.map((cell, j) => (
-                      <td key={j} className={`p-2 border-b border-gray-100 ${j === 0 ? 'font-bold' : ''}`}>
-                        {cell}
-                      </td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          {/* Section 5 */}
-          <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
-            <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">5</span>
-            The Third Front: EC Consolidation
-          </h2>
-          <p className="text-[#1a1a1f] leading-relaxed mb-3">
-            The $255B electrical contracting industry is experiencing its own PE-driven consolidation
-            wave &mdash; 79 deals in 2024, 73% PE-driven. ECs are vertically integrating fire and
-            security to capture subcontractor margin and recurring revenue. Seven platforms already
-            have fire+security inside an EC structure. This creates a third competitive front
-            alongside PE-backed security platforms and cloud-native disruptors.
-          </p>
-
-          {/* Section 6 */}
-          <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
-            <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">6</span>
-            The Convergence Squeeze
-          </h2>
-          <p className="text-[#1a1a1f] leading-relaxed mb-3">
-            IPS is being squeezed from three directions: PE-backed national platforms pressing down,
-            cloud-native disruptors pressing up, and ECs vertically integrating from inside the project
-            pipeline. The partner buyout makes this existential &mdash; grow revenue and RMR fast enough
-            to fund it internally, or the PE offer becomes the only path. The window is 3&ndash;5 years.
-          </p>
-
-          {/* Section 7 */}
-          <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
-            <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">7</span>
-            Where IPS Stands: Competitive Scorecard
-          </h2>
-          <p className="text-[#1a1a1f] leading-relaxed mb-3">
-            Rated on 8 key success factors (1&ndash;5 scale), IPS scores 27/40 &mdash; behind Convergint
-            (33) and Everon (31) but ahead of peer Silco (23). IPS is world-class at the technical
-            craft: NICET IV (5/5), fire+security combined (5/5), technology partnerships (5/5). But
-            the business systems that scale from $55M to $150M score poorly: recurring revenue (2/5),
-            scale &amp; capital (2/5), workforce pipeline (2/5), process maturity (2/5).
-          </p>
-
-          {/* Findings */}
-          <h2 className="text-xl font-bold text-[#1B3A6B] mb-4 mt-10 border-b-2 border-[#1B3A6B] pb-2">
-            Five Things the External Environment Is Telling You
-          </h2>
-
-          <div className="space-y-4 mb-10">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
             {[
-              { n: '1', color: '#1B3A6B', title: 'Your industry is becoming one market', body: 'Fire, security, IT, and cyber are merging into building intelligence. NFPA 72 (2025) makes it official. Cloud grows 4\u00d7 faster than the base market. The $256B addressable market is reorganizing around whoever can integrate all of it.' },
-              { n: '2', color: '#C8202D', title: 'Someone else is building what you could be', body: 'PE firms have deployed $9.6B assembling integrated platforms. Sovereign wealth funds validated the model at $6.1B. Every IPS market is now encircled. This is an industry reorganization.' },
-              { n: '3', color: '#D97706', title: 'Fire is your most defensible asset', body: 'Zero substitution threat. 10-year NICET IV moat. Code-mandated demand. But Edwards exclusivity is eroding under new PE ownership, and the fire moat alone won\u2019t fund a partner buyout.' },
-              { n: '4', color: '#166534', title: 'RMR is the answer to almost every question', body: 'IPS\u2019s true recurring revenue of 7\u201310% is the single largest gap. Service margins are 2.5\u00d7 project margins. The platforms are in place (Brivo, Genetec). The gap is go-to-market execution.' },
-              { n: '5', color: '#1B3A6B', title: 'The window is shorter than we thought', body: 'EC consolidation adds a third competitive front. PE-driven M&A assembles fire capability in 90 days. $12B+ in capital is deployed across all three fronts. The competitive landscape is narrowing faster than the original 3\u20135 year estimate.' },
-            ].map((f) => (
-              <div key={f.n} className="flex gap-3">
-                <div
-                  className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5"
-                  style={{ backgroundColor: f.color }}
-                >
-                  <span className="text-white text-xs font-bold">{f.n}</span>
-                </div>
-                <div>
-                  <p className="font-bold text-[#1a1a1f]">{f.title}</p>
-                  <p className="text-sm text-gray-600 leading-relaxed">{f.body}</p>
-                </div>
+              { val: '$88.9B', sub: '$130.4B by 2030', label: 'Global Fire Protection' },
+              { val: '$147.4B', sub: '$216.4B by 2030', label: 'Global Physical Security' },
+              { val: '$18.4B', sub: '+18% YoY (record)', label: 'SDM Top 100 Revenue' },
+              { val: '6.5-6.6%', sub: 'Both industries', label: 'Global CAGR' },
+            ].map((s) => (
+              <div key={s.label} className="bg-gray-50 rounded-lg p-3">
+                <p className="text-lg font-extrabold text-[#1B3A6B]">{s.val}</p>
+                <p className="text-[10px] text-gray-500">{s.sub}</p>
+                <p className="text-[10px] text-gray-400 mt-1">{s.label}</p>
               </div>
             ))}
           </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+            <div className="border border-green-200 bg-green-50 rounded-lg p-3">
+              <p className="text-xs font-bold text-green-800 uppercase mb-1">High Demand</p>
+              <ul className="text-xs text-[#1a1a1f] space-y-1 list-disc list-inside">
+                <li>Data Centers: +21.9% construction. OH #3 nationally.</li>
+                <li>Healthcare: $28.4B hospital starts 2026</li>
+                <li>Education: +6%, $273M+ federal funding</li>
+              </ul>
+            </div>
+            <div className="border border-blue-200 bg-blue-50 rounded-lg p-3">
+              <p className="text-xs font-bold text-blue-800 uppercase mb-1">Geographic Tailwinds</p>
+              <ul className="text-xs text-[#1a1a1f] space-y-1 list-disc list-inside">
+                <li>Ohio: 77 data centers, Meta Prometheus 1GW+</li>
+                <li>Tennessee: #2 job growth metro, HCA HQ</li>
+                <li>Federal: $1.3B+ flowing through OH/KY/TN</li>
+              </ul>
+            </div>
+            <div className="border border-amber-200 bg-amber-50 rounded-lg p-3">
+              <p className="text-xs font-bold text-amber-800 uppercase mb-1">Caution</p>
+              <ul className="text-xs text-[#1a1a1f] space-y-1 list-disc list-inside">
+                <li>Office: -8 to -10% YoY, ~20% vacancy</li>
+                <li>Warehouse: declining from overbuilding peak</li>
+                <li>Labor: 29% fire workforce retiring, 0 apprenticeship programs</li>
+              </ul>
+            </div>
+          </div>
 
-          {/* Bridge */}
+          {/* What DID it take to win */}
+          <div className="bg-gray-50 rounded-lg p-4 mb-4">
+            <p className="text-xs font-bold text-[#1B3A6B] uppercase tracking-wide mb-2">What Did It Take to Win?</p>
+            <p className="text-sm text-[#1a1a1f] leading-relaxed">
+              Relationships, technical craft, local presence, trust, and price competitiveness. IPS built $55M on
+              exactly these: NICET Level IV (10+ years required), largest privately-held Edwards distributor nationally,
+              in-house engineering, multi-vendor security portfolio, local ownership with fast decisions. That combination
+              won in a fragmented, relationship-driven, project-based industry.
+            </p>
+          </div>
+
+          {/* Industry characteristics */}
+          <div className="bg-gray-50 rounded-lg p-4 mb-6">
+            <p className="text-xs font-bold text-[#1B3A6B] uppercase tracking-wide mb-2">Why PE Loves This Industry</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+              {[
+                { label: 'Fragmented', detail: '5,000+ fire companies, 219K ECs' },
+                { label: 'Aging owners', detail: 'Industry-wide succession gap' },
+                { label: 'Code-mandated', detail: 'Recession-resistant demand floor' },
+                { label: 'Multiple arbitrage', detail: 'Buy 6-9x, platform trades 13-16x' },
+                { label: 'Recurring revenue', detail: 'Service 50% GM vs project 20%' },
+                { label: 'High switching costs', detail: 'Proprietary fire panels' },
+                { label: 'Asset-light', detail: 'People + certs + relationships' },
+                { label: 'Scalable via M&A', detail: 'Pye-Barker: 57 deals in one year' },
+              ].map((c) => (
+                <div key={c.label} className="bg-white rounded p-2 border border-gray-100">
+                  <p className="text-xs font-bold text-[#1a1a1f]">{c.label}</p>
+                  <p className="text-[10px] text-gray-500">{c.detail}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* === SECTION 3: TRENDS / DRIVERS === */}
+          <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
+            <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">3</span>
+            Industry Trends &amp; Drivers
+          </h2>
+
+          <div className="space-y-4 mb-6">
+            <div className="border-l-4 border-[#2563eb] pl-4">
+              <p className="font-bold text-[#1a1a1f] mb-1">Convergence: Fire + Security + IT + Cyber &rarr; One Industry</p>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                NFPA 72-2025 mandates cybersecurity for networked fire systems. Brivo + Eagle Eye merged Dec 2025
+                (unified cloud platform). Verkada: $700M revenue, $5.8B valuation, bypasses integrators. 82% planning
+                cloud transitions. The integrator that bridges all categories captures the relationship. The one that
+                doesn&apos;t becomes a subcontractor.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-[#16a34a] pl-4">
+              <p className="font-bold text-[#1a1a1f] mb-1">Revenue Model Shift: Projects &rarr; Recurring</p>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Equipment margins compressing. Complexity and service margins expanding. Installed base &mdash; not the
+                installation pipeline &mdash; is the strategic asset. Every system installed today becomes a maintenance
+                contract tomorrow. The question is whether the integrator captures that contract or walks away.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-[#C8202D] pl-4">
+              <p className="font-bold text-[#1a1a1f] mb-1">Intermediary Squeeze: Compressed from Three Directions</p>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                <strong>From above:</strong> Edwards under Lone Star PE adding distributors in IPS territories.
+                Pete Keller: &ldquo;not as strong a partnership as it used to be.&rdquo;
+                <strong> From below:</strong> ECs building fire/security in-house. ArchKey (26North, $32B AUM) hiring
+                NICET estimators. PEC revenue to IPS dropped 89%.
+                <strong> From the side:</strong> Verkada selling direct. IT MSPs adding physical security. The technology
+                floor is rising.
+              </p>
+            </div>
+          </div>
+
+          {/* === SECTION 4: CONSEQUENCES === */}
+          <h2 className="text-xl font-bold text-[#C8202D] mb-3 mt-8 flex items-center gap-2">
+            <span className="bg-[#C8202D] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">4</span>
+            Consequences
+          </h2>
+
+          {/* C-Suite */}
+          <div className="bg-gray-50 rounded-lg p-4 mb-4">
+            <p className="text-xs font-bold text-[#1B3A6B] uppercase tracking-wide mb-2">C-Suite Attention</p>
+            <p className="text-sm text-[#1a1a1f] leading-relaxed">
+              Security is no longer a facilities conversation &mdash; it&apos;s a board-level conversation. When physical
+              security devices become networked IT endpoints and fire code mandates cybersecurity compliance, the buyer
+              changes. Facilities managers buy on price. CSOs and risk officers buy on enterprise risk posture and
+              platform capability. Good for sophisticated integrators. Fatal for commodity installers.
+            </p>
+          </div>
+
+          {/* PE Consolidation */}
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+            <p className="text-xs font-bold text-[#C8202D] uppercase tracking-wide mb-2">PE Consolidation &mdash; The Numbers</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
+              {[
+                { val: '$33B+', label: 'Enterprise value deployed' },
+                { val: '261', label: 'Deals in 3 years' },
+                { val: '17', label: 'Deals in OH/KY/TN' },
+                { val: '3x', label: 'Deal pace increase (3→9)' },
+              ].map((s) => (
+                <div key={s.label} className="text-center">
+                  <p className="text-xl font-extrabold text-[#C8202D]">{s.val}</p>
+                  <p className="text-[10px] text-gray-600">{s.label}</p>
+                </div>
+              ))}
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs border-collapse">
+                <thead>
+                  <tr className="border-b-2 border-red-200">
+                    <th className="text-left p-2 font-bold text-[#C8202D]">Platform</th>
+                    <th className="text-left p-2 font-bold text-[#C8202D]">Revenue</th>
+                    <th className="text-left p-2 font-bold text-[#C8202D]">EV / Valuation</th>
+                    <th className="text-left p-2 font-bold text-[#C8202D]">PE Sponsor</th>
+                    <th className="text-left p-2 font-bold text-[#C8202D]">IPS Market Presence</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['APi Group', '$7.9B', '$21.25B (16.8x)', 'Public', 'Harrison, OH (Cincy metro)'],
+                    ['Convergint', '$2.7B', '$5-7B est.', 'Leonard Green / Ares', 'Cincinnati (Jun 2025)'],
+                    ['Pye-Barker', '$1.0B', '$6.1B', 'Leonard Green / ADIA / GIC', 'Mason OH, Louisville, Somerset KY'],
+                    ['Summit Fire', 'Est. $800M+', 'Unknown', 'SFP Holding', 'West Chester OH, Louisville KY'],
+                    ['Everon', '$781.7M', '$1.61B', 'GTCR', 'Columbus, Louisville, Lexington'],
+                    ['Pavion', '$625.3M', 'Unknown', 'Wind Point / Blackstone', 'Cincinnati (Turnkey Tech)'],
+                  ].map((row, i) => (
+                    <tr key={i} className={i % 2 === 1 ? 'bg-white' : 'bg-red-50/50'}>
+                      {row.map((cell, j) => (
+                        <td key={j} className={`p-2 border-b border-red-100 ${j === 0 ? 'font-bold' : ''}`}>
+                          {cell}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-[10px] text-gray-500 mt-2">Leonard Green controls both Convergint AND Pye-Barker &mdash; $3.7B combined revenue under one PE sponsor. Sovereign wealth (ADIA + GIC) validated at $6.1B.</p>
+          </div>
+
+          {/* EC Vertical Integration */}
+          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
+            <p className="text-xs font-bold text-amber-800 uppercase tracking-wide mb-2">Vertical Integration &mdash; ECs Capturing the Integrator&apos;s Work</p>
+            <p className="text-sm text-[#1a1a1f] leading-relaxed mb-2">
+              PE buys EC &rarr; EC gets GC relationships &rarr; EC builds fire/security in-house &rarr; captures
+              subcontractor margin AND recurring revenue &rarr; independent integrators lose the channel.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <div>
+                <p className="text-xs font-bold text-amber-800 mb-1">APi Group: The Proof</p>
+                <p className="text-xs text-[#1a1a1f]">
+                  EC &rarr; acquired Chubb for $3.1B &rarr; now $7.9B revenue, $21.25B EV. Market cap +95.92% YoY.
+                  SOFR+175 (tightest spread in industry). Wall Street loves this model.
+                </p>
+              </div>
+              <div>
+                <p className="text-xs font-bold text-amber-800 mb-1">ArchKey/26North: The Active Threat</p>
+                <p className="text-xs text-[#1a1a1f]">
+                  IPS&apos;s $2.5M customer. 26North: Joshua Harris (Apollo co-founder), $32B AUM, $3.85B dry powder
+                  (89% undeployed). ArchKey: $21.4M &rarr; $1B in 7 years (47x). $475M dividend recap Mar 2026.
+                  PEC revenue to IPS already dropped 89%.
+                </p>
+              </div>
+            </div>
+            <p className="text-xs text-[#C8202D] font-bold mt-2">23% of IPS revenue ($12.65M) flows through the EC channel. $3.8-8.0M at risk over 3-5 years.</p>
+          </div>
+
+          {/* What does it take to win NOW vs AHEAD */}
+          <div className="bg-[#1a1a1f] rounded-lg p-5 mb-6">
+            <p className="text-xs font-bold text-[#C8202D] uppercase tracking-wide mb-3">What Does It Take to Win?</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div>
+                <p className="text-sm font-bold text-white/60 mb-1">THEN</p>
+                <ul className="text-xs text-white/80 space-y-1 list-disc list-inside">
+                  <li>Relationships</li>
+                  <li>Technical craft</li>
+                  <li>Local presence</li>
+                  <li>Price competitiveness</li>
+                </ul>
+              </div>
+              <div>
+                <p className="text-sm font-bold text-[#C8202D] mb-1">NOW (2026)</p>
+                <ul className="text-xs text-white/80 space-y-1 list-disc list-inside">
+                  <li>Everything above, PLUS:</li>
+                  <li>Recurring revenue wrapping every install</li>
+                  <li>Multi-discipline scope (fire + security + managed)</li>
+                  <li>Cloud/platform capability</li>
+                  <li>Direct customer relationships</li>
+                </ul>
+              </div>
+              <div>
+                <p className="text-sm font-bold text-amber-400 mb-1">AHEAD (2028-30)</p>
+                <ul className="text-xs text-white/80 space-y-1 list-disc list-inside">
+                  <li>Everything above, PLUS:</li>
+                  <li>Cyber-physical integration</li>
+                  <li>Pre-design advisory (own the spec)</li>
+                  <li>Lifecycle management contracts</li>
+                  <li>Selling to CSOs, not facilities</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* === SECTION 5: COMPETITIVE MAP === */}
+          <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
+            <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">5</span>
+            Competitive Map &mdash; Where Everybody Sits
+          </h2>
+          <p className="text-sm text-gray-600 mb-3">
+            X-axis: Service Complexity (commodity &rarr; integrated platform). Y-axis: Customer Relationship Depth (transactional &rarr; recurring/managed).
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+            <div className="border border-gray-200 rounded-lg p-3">
+              <p className="text-xs font-bold text-gray-400 uppercase mb-1">Q1: Commodity Installers</p>
+              <p className="text-xs text-gray-500">Simple installs won on price. Midwest Security, Royce, HSI. Thin margins, no loyalty.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-3">
+              <p className="text-xs font-bold text-gray-400 uppercase mb-1">Q2: Guarding &amp; Basic Recurring</p>
+              <p className="text-xs text-gray-500">Labor contracts, basic monitoring. Securitas, Allied Universal. Steady but vulnerable to AI.</p>
+            </div>
+            <div className="border-2 border-[#C8202D] rounded-lg p-3 bg-red-50/30">
+              <p className="text-xs font-bold text-[#C8202D] uppercase mb-1">Q3: Advanced But Transactional &mdash; IPS IS HERE</p>
+              <p className="text-xs text-[#1a1a1f]">Sophisticated integration, but project-by-project. High skill, inconsistent revenue. IPS scores 2.75/2.25 vs Convergint 3.0/2.88.</p>
+            </div>
+            <div className="border-2 border-[#16a34a] rounded-lg p-3 bg-green-50/30">
+              <p className="text-xs font-bold text-[#16a34a] uppercase mb-1">Q4: Integrated Managed Security &mdash; WHERE PROFIT LIVES</p>
+              <p className="text-xs text-[#1a1a1f]">Managed service agreements, sticky customers, high switching costs. Convergint, APi Group. Buyer is CSO/CISO/C-suite.</p>
+            </div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-4 mb-6">
+            <p className="text-sm text-[#1a1a1f] leading-relaxed">
+              <strong>The strategic question is not geographic expansion. It&apos;s quadrant migration.</strong> Moving
+              from Q3 to Q4 is worth more than adding a new territory while staying in Q3. IPS and Silco are the last
+              independents standing in Cincinnati at meaningful scale.
+            </p>
+          </div>
+
+          {/* === SECTION 6: PATHWAY OPTIONS === */}
+          <h2 className="text-xl font-bold text-[#1B3A6B] mb-3 mt-8 flex items-center gap-2">
+            <span className="bg-[#1B3A6B] text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0">6</span>
+            Pathway Options
+          </h2>
+          <div className="space-y-4 mb-6">
+            <div className="border border-[#16a34a] rounded-lg p-4">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-[#16a34a] text-white text-xs font-bold px-2 py-0.5 rounded">A</span>
+                <p className="font-bold text-[#1a1a1f]">Capture the Recurring Revenue Tail</p>
+                <span className="text-[10px] font-bold text-[#16a34a] uppercase ml-auto">Immediate</span>
+              </div>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Stop leaving the building. Wrap every installation in a lifecycle service agreement. Convert 78.5%
+                project-based toward 20%+ recurring. Requires no new headcount or capabilities &mdash; just changing
+                how you sell. Moving from 5.8% to 15% RMR changes the valuation multiple from ~6x to ~10x EBITDA.
+                That&apos;s <strong>$24M+ in enterprise value</strong> created by changing how you sell, not what you sell.
+              </p>
+            </div>
+            <div className="border border-[#2563eb] rounded-lg p-4">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-[#2563eb] text-white text-xs font-bold px-2 py-0.5 rounded">B</span>
+                <p className="font-bold text-[#1a1a1f]">Deepen the Moat Through Managed Services</p>
+                <span className="text-[10px] font-bold text-[#2563eb] uppercase ml-auto">Build</span>
+              </div>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Add cyber hygiene for physical security systems, remote monitoring/NOC, helpdesk, subscription billing.
+                This is the Q3 &rarr; Q4 migration. The moat comes from wrapping IPS&apos;s unique multi-discipline
+                depth in a managed service platform no single competitor can replicate locally.
+              </p>
+            </div>
+            <div className="border border-[#d97706] rounded-lg p-4">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-[#d97706] text-white text-xs font-bold px-2 py-0.5 rounded">C</span>
+                <p className="font-bold text-[#1a1a1f]">Selective Geographic Expansion &mdash; On the New Model</p>
+                <span className="text-[10px] font-bold text-[#d97706] uppercase ml-auto">After A &amp; B</span>
+              </div>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Nashville first (least PE presence, proven playbook, existing pull). Atlanta per VTO. But
+                only on the new model &mdash; expanding geographically on the old model replicates the same
+                vulnerabilities in a new zip code. The 2021 study recommended geographic expansion. The industry
+                changed. Geographic expansion is necessary but not sufficient.
+              </p>
+            </div>
+          </div>
+
+          {/* The Throughline */}
           <div className="bg-[#1a1a1f] rounded-lg px-5 py-4 mb-8">
             <p className="text-white text-sm leading-relaxed">
-              <span className="text-[#C8202D] font-bold">THE QUESTION: </span>
-              The external environment frames the challenge: a converging industry, PE reorganization,
-              EC vertical integration, a narrowing window, and a partner buyout that makes growth
-              existential. The internal analysis answers it &mdash; what does IPS have to work with,
-              and what strategic paths does the converged industry create?
+              <span className="text-[#C8202D] font-bold">THE THROUGHLINE: </span>
+              The external environment is not hostile to IPS. It is hostile to IPS&apos;s current business model.
+              The technical foundation is elite. The geographic position is strong. The demand environment is favorable.
+              The question is whether IPS will build the business model the reorganized industry rewards &mdash; before
+              the window closes. The M&amp;A comps prove the stakes: the difference between 6x EBITDA (project-heavy) and
+              16x EBITDA (recurring-revenue platform) is <span className="text-[#C8202D] font-bold">$35-59M in enterprise value</span>.
             </p>
           </div>
 
           {/* Sources */}
           <div className="border-t border-gray-200 pt-4">
             <p className="text-[10px] text-gray-400 leading-relaxed">
-              Sources: Plunkett Research via Xavier/Gale &middot; PitchBook &middot; Capstone Partners
-              (Feb 2026) &middot; SDM Magazine Top 100 (2024) &middot; NFPA 72 (2025) &middot; FEMA.gov
-              &middot; MarketsandMarkets &middot; Grand View Research &middot; IBISWorld &middot;
-              ConstructConnect &middot; BMI Mergers &middot; FMI Capital Advisors &middot; IPS
-              Leadership (Mar 2026) &middot; Pete Keller Consultation (Mar 25, 2026) &middot; Team
-              PESTEL Workbook
+              Sources: PitchBook (company profiles, deal data, M&amp;A comps, March-April 2026) &middot; Grand View
+              Research &middot; MarketsandMarkets &middot; Plunkett Research via Xavier/Gale &middot; SDM Magazine
+              Top 100 (2024) &middot; NFPA 72 (2025) &middot; Capstone Partners (Feb 2026) &middot; AIA Consensus
+              Construction Forecast (Jan 2025) &middot; Arizton &middot; CBRE Real Estate Outlook 2025 &middot;
+              Genetec State of Physical Security 2026 &middot; FEMA.gov &middot; Congress.gov &middot; IPS Leadership
+              Meeting (Mar 20, 2026) &middot; Pete Keller Consultation (Mar 25, 2026) &middot; IPS VTO &middot;
+              Walter Kidde Channel Partner Agreement (Mar 2026) &middot; LenelS2 VAR Agreement (Sep 2025)
             </p>
           </div>
 
